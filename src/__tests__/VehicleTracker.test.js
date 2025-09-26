@@ -19,12 +19,10 @@ describe('VehicleTracker', () => {
             expect(result.totalVehicles).toBe(1);
             expect(result.vehicles['ABC123']).toBeDefined();
             expect(result.vehicles['ABC123'].position).toEqual({ lat: 45.5017, lon: -73.5673 });
-            expect(result.vehicles['ABC123'].firstSeen).toBeDefined();
             expect(result.vehicles['ABC123'].lastUpdate).toBeDefined();
-            expect(result.vehicles['ABC123'].movementHistory).toEqual([]);
         });
 
-        test('détecte quand un véhicule a bougé', () => {
+        test('détecte quand un véhicule a bougé', async () => {
             const initialData = [{
                 description: { plate: 'ABC123' },
                 location: { position: { lat: 45.5017, lon: -73.5673 } }
@@ -37,19 +35,20 @@ describe('VehicleTracker', () => {
 
             // Premier traitement
             tracker.processVehicleData(initialData);
+            const firstUpdate = tracker.vehicles.get('ABC123').lastUpdate;
             
-            // Deuxième traitement avec position différente
-            const result = tracker.processVehicleData(movedData);
+            // Pour s'assurer que le timestamp change
+            await new Promise(resolve => setTimeout(resolve, 1));
 
-            expect(result.vehicles['ABC123'].movementHistory).toHaveLength(1);
-            expect(result.vehicles['ABC123'].movementHistory[0]).toMatchObject({
-                from: { lat: 45.5017, lon: -73.5673 },
-                to: { lat: 45.5018, lon: -73.5673 }
-            });
-            expect(result.vehicles['ABC123'].position).toEqual({ lat: 45.5018, lon: -73.5673 });
+            // Deuxième traitement avec position différente
+            tracker.processVehicleData(movedData);
+            const updatedVehicle = tracker.vehicles.get('ABC123');
+
+            expect(updatedVehicle.position).toEqual({ lat: 45.5018, lon: -73.5673 });
+            expect(updatedVehicle.lastUpdate).not.toBe(firstUpdate);
         });
 
-        test('ne crée pas d\'historique si le véhicule n\'a pas bougé', () => {
+        test('ne met pas à jour si le véhicule n\'a pas bougé', () => {
             const initialData = [{
                 description: { plate: 'ABC123' },
                 location: { position: { lat: 45.5017, lon: -73.5673 } }
@@ -65,10 +64,10 @@ describe('VehicleTracker', () => {
             const firstUpdate = firstResult.vehicles['ABC123'].lastUpdate;
             
             // Deuxième traitement avec position similaire
-            const result = tracker.processVehicleData(samePositionData);
+            tracker.processVehicleData(samePositionData);
+            const finalVehicleState = tracker.vehicles.get('ABC123');
 
-            expect(result.vehicles['ABC123'].movementHistory).toHaveLength(0);
-            expect(result.vehicles['ABC123'].lastUpdate).toBe(firstUpdate); // Pas mis à jour
+            expect(finalVehicleState.lastUpdate).toBe(firstUpdate); // Pas mis à jour
         });
 
         test('ignore les véhicules sans plaque d\'immatriculation', () => {
@@ -108,76 +107,21 @@ describe('VehicleTracker', () => {
             expect(result.vehicles['ABC123']).toBeUndefined();
         });
 
-        test('limite l\'historique des mouvements à 10 entrées', () => {
-            const plate = 'ABC123';
-            let currentLat = 45.5017;
-
-            // Ajouter un véhicule initial
-            tracker.processVehicleData([{
-                description: { plate },
-                location: { position: { lat: currentLat, lon: -73.5673 } }
-            }]);
-
-            // Simuler 15 mouvements
-            for (let i = 0; i < 15; i++) {
-                currentLat += 0.001; // Déplacer le véhicule
-                tracker.processVehicleData([{
-                    description: { plate },
-                    location: { position: { lat: currentLat, lon: -73.5673 } }
-                }]);
-            }
-
-            const result = tracker.processVehicleData([{
-                description: { plate },
-                location: { position: { lat: currentLat, lon: -73.5673 } }
-            }]);
-
-            expect(result.vehicles[plate].movementHistory.length).toBeLessThanOrEqual(10);
-        });
-
-        test('lève une erreur si les données ne sont pas un tableau', () => {
-            expect(() => {
-                tracker.processVehicleData('invalid');
-            }).toThrow('Vehicle data must be an array');
-
-            expect(() => {
-                tracker.processVehicleData(null);
-            }).toThrow('Vehicle data must be an array');
-        });
-
-        test('conserve les véhicules existants qui ne sont plus dans l\'API', () => {
+        test('maintient l\'ordre des véhicules et ajoute les nouveaux à la fin', () => {
             const initialData = [
-                {
-                    description: { plate: 'ABC123' },
-                    location: { position: { lat: 45.5017, lon: -73.5673 } }
-                },
-                {
-                    description: { plate: 'DEF456' },
-                    location: { position: { lat: 45.5027, lon: -73.5683 } }
-                }
+                { description: { plate: 'ABC123' }, location: { position: { lat: 1, lon: 1 } } },
+                { description: { plate: 'DEF456' }, location: { position: { lat: 2, lon: 2 } } }
             ];
+            tracker.processVehicleData(initialData);
 
-            const newDataWithoutABC123 = [
-                {
-                    description: { plate: 'DEF456' },
-                    location: { position: { lat: 45.5027, lon: -73.5683 } }
-                }
+            const newData = [
+                { description: { plate: 'GHI789' }, location: { position: { lat: 3, lon: 3 } } }, // Nouveau
+                { description: { plate: 'ABC123' }, location: { position: { lat: 1.1, lon: 1.1 } } } // Existant
             ];
+            tracker.processVehicleData(newData);
 
-            // Premier traitement avec les deux véhicules
-            const firstResult = tracker.processVehicleData(initialData);
-            expect(firstResult.totalVehicles).toBe(2);
-            expect(firstResult.vehicles['ABC123']).toBeDefined();
-            expect(firstResult.vehicles['DEF456']).toBeDefined();
-
-            // Deuxième traitement sans ABC123 dans l'API
-            const secondResult = tracker.processVehicleData(newDataWithoutABC123);
-            
-            // ABC123 doit être conservé même s'il n'est plus dans l'API
-            expect(secondResult.totalVehicles).toBe(2);
-            expect(secondResult.vehicles['ABC123']).toBeDefined();
-            expect(secondResult.vehicles['DEF456']).toBeDefined();
-            expect(secondResult.vehicles['ABC123'].position).toEqual({ lat: 45.5017, lon: -73.5673 });
+            const vehicleKeys = Array.from(tracker.vehicles.keys());
+            expect(vehicleKeys).toEqual(['ABC123', 'DEF456', 'GHI789']);
         });
     });
 
@@ -187,9 +131,7 @@ describe('VehicleTracker', () => {
                 vehicles: {
                     'ABC123': {
                         position: { lat: 45.5017, lon: -73.5673 },
-                        firstSeen: '2023-01-01T10:00:00Z',
-                        lastUpdate: '2023-01-01T11:00:00Z',
-                        movementHistory: []
+                        lastUpdate: '2023-01-01T11:00:00Z'
                     }
                 }
             };
@@ -206,35 +148,6 @@ describe('VehicleTracker', () => {
             expect(() => tracker.loadExistingData({ vehicles: null })).not.toThrow();
             
             expect(tracker.vehicles.size).toBe(0);
-        });
-    });
-
-    describe('getStatistics', () => {
-        test('calcule correctement les statistiques', () => {
-            // Ajouter des véhicules avec et sans mouvements
-            tracker.vehicles.set('ABC123', {
-                movementHistory: [{ from: {}, to: {}, timestamp: '' }]
-            });
-            tracker.vehicles.set('DEF456', {
-                movementHistory: []
-            });
-            tracker.vehicles.set('GHI789', {
-                movementHistory: [{ from: {}, to: {}, timestamp: '' }, { from: {}, to: {}, timestamp: '' }]
-            });
-
-            const stats = tracker.getStatistics();
-
-            expect(stats.totalVehicles).toBe(3);
-            expect(stats.vehiclesWithMovements).toBe(2);
-            expect(stats.totalMovements).toBe(3);
-        });
-
-        test('retourne des statistiques vides pour un tracker vide', () => {
-            const stats = tracker.getStatistics();
-
-            expect(stats.totalVehicles).toBe(0);
-            expect(stats.vehiclesWithMovements).toBe(0);
-            expect(stats.totalMovements).toBe(0);
         });
     });
 

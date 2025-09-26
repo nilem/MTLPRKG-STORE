@@ -46,8 +46,7 @@ async function main() {
         // Ajouter des métadonnées
         const finalData = {
             ...processedData,
-            lastUpdate: new Date().toLocaleString('fr-CA', { timeZone: 'America/Montreal' }),
-            statistics: tracker.getStatistics()
+            lastUpdate: new Date().toLocaleString('fr-CA', { timeZone: 'America/Montreal' })
         };
         
         // Sauvegarder les données traitées
@@ -55,8 +54,6 @@ async function main() {
         
         console.log(`Données sauvegardées avec succès dans ${outputPath}`);
         console.log(`Véhicules traités: ${finalData.totalVehicles}`);
-        console.log(`Véhicules avec historique de mouvement: ${finalData.statistics.vehiclesWithMovements}`);
-        console.log(`Total de mouvements enregistrés: ${finalData.statistics.totalMovements}`);
         console.log(`Timestamp: ${finalData.timestamp}`);
         
     } catch (error) {

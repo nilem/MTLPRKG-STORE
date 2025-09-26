@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-09-26T03:48:23.041Z",
+  "timestamp": "2025-09-26T03:56:39.668Z",
   "totalVehicles": 526,
   "vehicles": {
     "FTK9767": {
@@ -472,10 +472,10 @@
     },
     "FTK9106": {
       "position": {
-        "lat": 45.544835,
-        "lon": -73.608116
+        "lat": 45.544814,
+        "lon": -73.608076
       },
-      "lastUpdate": "2025-09-26T03:41:44.761Z",
+      "lastUpdate": "2025-09-26T03:56:39.668Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
       "movementHistory": [
         {
@@ -5424,10 +5424,10 @@
     },
     "FTL1886": {
       "position": {
-        "lat": 45.543216,
-        "lon": -73.625294
+        "lat": 45.554418,
+        "lon": -73.615886
       },
-      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "lastUpdate": "2025-09-26T03:56:39.668Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
       "movementHistory": []
     },
@@ -5496,18 +5496,13 @@
     },
     "FTK9466": {
       "position": {
-        "lat": 45.54359,
-        "lon": -73.564595
+        "lat": 45.548324,
+        "lon": -73.553152
       },
-      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "lastUpdate": "2025-09-26T03:56:39.668Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
       "movementHistory": []
     }
   },
-  "lastUpdate": "2025-09-25 23 h 48 min 23 s",
-  "statistics": {
-    "totalVehicles": 526,
-    "vehiclesWithMovements": 63,
-    "totalMovements": 64
-  }
+  "lastUpdate": "2025-09-25 23 h 56 min 39 s"
 }

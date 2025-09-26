@@ -19,78 +19,57 @@ export class VehicleTracker {
         }
 
         const currentTime = new Date().toISOString();
-        const updatedVehicles = {};
-        const currentVehiclePlates = new Set();
-
-        // Traiter les véhicules présents dans l'API
-        for (const vehicle of vehicleData) {
-            const plate = vehicle.description?.plate;
-            const newPosition = vehicle.location?.position;
-
+        const newVehicleDataMap = new Map(vehicleData.map(v => [v.description?.plate, v]));
+        
+        // Mettre à jour les véhicules existants et identifier les nouveaux
+        const newPlates = new Set();
+        for (const [plate, vehicle] of newVehicleDataMap.entries()) {
             if (!plate) {
                 console.warn('Vehicle without plate found, skipping:', vehicle.description?.id);
                 continue;
             }
 
+            const newPosition = vehicle.location?.position;
             if (!isValidPosition(newPosition)) {
                 console.warn(`Invalid position for vehicle ${plate}:`, newPosition);
                 continue;
             }
 
-            currentVehiclePlates.add(plate);
             const existingVehicle = this.vehicles.get(plate);
 
-            if (!existingVehicle) {
+            if (existingVehicle) {
+                // Véhicule existant
+                const hasMoved = hasVehicleMoved(existingVehicle.position, newPosition);
+                if (hasMoved) {
+                    existingVehicle.position = newPosition;
+                    existingVehicle.lastUpdate = currentTime;
+                }
+            } else {
                 // Nouveau véhicule
-                updatedVehicles[plate] = {
+                this.vehicles.set(plate, {
                     position: newPosition,
                     lastUpdate: currentTime,
-                    firstSeen: currentTime,
-                    movementHistory: []
-                };
-            } else {
-                // Véhicule existant - vérifier s'il a bougé
-                const hasMoved = hasVehicleMoved(existingVehicle.position, newPosition);
-
-                if (hasMoved) {
-                    // Le véhicule a bougé
-                    const movementRecord = {
-                        from: existingVehicle.position,
-                        to: newPosition,
-                        timestamp: currentTime
-                    };
-
-                    updatedVehicles[plate] = {
-                        position: newPosition,
-                        lastUpdate: currentTime,
-                        firstSeen: existingVehicle.firstSeen,
-                        movementHistory: [
-                            ...existingVehicle.movementHistory.slice(-9), // Garder les 9 derniers mouvements
-                            movementRecord
-                        ]
-                    };
-                } else {
-                    // Le véhicule n'a pas bougé - garder les données existantes
-                    updatedVehicles[plate] = existingVehicle;
-                }
+                });
             }
-
-            // Mettre à jour le cache interne
-            this.vehicles.set(plate, updatedVehicles[plate]);
+            newPlates.add(plate);
         }
 
-        // Ajouter tous les véhicules existants qui ne sont plus dans l'API
-        // Les garder tels quels pour maintenir l'historique
-        for (const [plate, vehicleInfo] of this.vehicles.entries()) {
-            if (!currentVehiclePlates.has(plate)) {
-                updatedVehicles[plate] = vehicleInfo;
+        // Supprimer les véhicules qui ne sont plus dans l'API
+        for (const plate of this.vehicles.keys()) {
+            if (!newVehicleDataMap.has(plate)) {
+                // On pourrait vouloir les supprimer, mais la logique précédente les gardait.
+                // Pour l'instant, on les garde. Si on veut les supprimer:
+                // this.vehicles.delete(plate);
             }
         }
+
+        // Convertir la Map en objet pour le retour, l'ordre est préservé
+        const updatedVehiclesObject = Object.fromEntries(this.vehicles);
 
         return {
             timestamp: currentTime,
-            totalVehicles: Object.keys(updatedVehicles).length,
-            vehicles: updatedVehicles
+            totalVehicles: this.vehicles.size,
+            vehicles: updatedVehiclesObject
         };
     }
 
@@ -107,27 +86,6 @@ export class VehicleTracker {
         for (const [plate, vehicleInfo] of Object.entries(existingData.vehicles)) {
             this.vehicles.set(plate, vehicleInfo);
         }
-    }
-
-    /**
-     * Obtient les statistiques des véhicules suivis
-     * @returns {Object} Statistiques
-     */
-    getStatistics() {
-        const stats = {
-            totalVehicles: this.vehicles.size,
-            vehiclesWithMovements: 0,
-            totalMovements: 0
-        };
-
-        for (const vehicle of this.vehicles.values()) {
-            if (vehicle.movementHistory && vehicle.movementHistory.length > 0) {
-                stats.vehiclesWithMovements++;
-                stats.totalMovements += vehicle.movementHistory.length;
-            }
-        }
-
-        return stats;
     }
 
     /**
