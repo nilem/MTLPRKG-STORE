@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Données de Véhicules - Montréal Parking</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        .api-info {
+            background: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .endpoint {
+            background: #3498db;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: monospace;
+            word-break: break-all;
+        }
+        .update-info {
+            background: #e8f5e8;
+            border-left: 4px solid #27ae60;
+            padding: 15px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚗 API de Données de Véhicules</h1>
+        
+        <div class="update-info">
+            <h3>📋 Informations</h3>
+            <p>Cette API fournit des données en temps réel sur les véhicules disponibles à Montréal.</p>
+            <p><strong>Mise à jour :</strong> Toutes les heures automatiquement</p>
+            <p><strong>Format :</strong> JSON</p>
+        </div>
+
+        <div class="api-info">
+            <h3>🔗 Endpoint Principal</h3>
+            <div class="endpoint">
+                https://nilem.github.io/MTLPRKG-STORE/vehiculeUsages.latest.json
+            </div>
+        </div>
+
+        <div class="api-info">
+            <h3>📊 Structure des Données</h3>
+            <pre><code>{
+  "timestamp": "2024-01-01T12:00:00.000Z",
+  "lastUpdate": "2024-01-01 07:00:00",
+  "data": {
+    "vehicles": [...],
+    // Autres propriétés de l'API
+  }
+}</code></pre>
+        </div>
+
+        <div class="api-info">
+            <h3>🛠 Utilisation</h3>
+            <p>Vous pouvez utiliser ce endpoint dans vos applications pour récupérer les données de véhicules :</p>
+            <pre><code>fetch('https://nilem.github.io/MTLPRKG-STORE/vehiculeUsages.latest.json')
+  .then(response => response.json())
+  .then(data => console.log(data));</code></pre>
+        </div>
+
+        <div class="api-info">
+            <h3>📝 CORS</h3>
+            <p>GitHub Pages permet les requêtes cross-origin, donc vous pouvez utiliser cette API depuis n'importe quel domaine.</p>
+        </div>
+    </div>
+</body>
+</html>
