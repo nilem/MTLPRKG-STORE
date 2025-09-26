@@ -20,7 +20,9 @@ export class VehicleTracker {
 
         const currentTime = new Date().toISOString();
         const updatedVehicles = {};
+        const currentVehiclePlates = new Set();
 
+        // Traiter les véhicules présents dans l'API
         for (const vehicle of vehicleData) {
             const plate = vehicle.description?.plate;
             const newPosition = vehicle.location?.position;
@@ -35,6 +37,7 @@ export class VehicleTracker {
                 continue;
             }
 
+            currentVehiclePlates.add(plate);
             const existingVehicle = this.vehicles.get(plate);
 
             if (!existingVehicle) {
@@ -74,6 +77,14 @@ export class VehicleTracker {
 
             // Mettre à jour le cache interne
             this.vehicles.set(plate, updatedVehicles[plate]);
+        }
+
+        // Ajouter tous les véhicules existants qui ne sont plus dans l'API
+        // Les garder tels quels pour maintenir l'historique
+        for (const [plate, vehicleInfo] of this.vehicles.entries()) {
+            if (!currentVehiclePlates.has(plate)) {
+                updatedVehicles[plate] = vehicleInfo;
+            }
         }
 
         return {

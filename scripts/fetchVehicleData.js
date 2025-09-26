@@ -43,12 +43,6 @@ async function main() {
         // Traiter les nouvelles données
         const processedData = tracker.processVehicleData(apiVehicleData);
         
-        // Nettoyer les anciens véhicules (plus vus depuis 24h)
-        const removedCount = tracker.cleanupOldVehicles(24);
-        if (removedCount > 0) {
-            console.log(`${removedCount} anciens véhicules supprimés du suivi`);
-        }
-
         // Ajouter des métadonnées
         const finalData = {
             ...processedData,

@@ -144,6 +144,41 @@ describe('VehicleTracker', () => {
                 tracker.processVehicleData(null);
             }).toThrow('Vehicle data must be an array');
         });
+
+        test('conserve les véhicules existants qui ne sont plus dans l\'API', () => {
+            const initialData = [
+                {
+                    description: { plate: 'ABC123' },
+                    location: { position: { lat: 45.5017, lon: -73.5673 } }
+                },
+                {
+                    description: { plate: 'DEF456' },
+                    location: { position: { lat: 45.5027, lon: -73.5683 } }
+                }
+            ];
+
+            const newDataWithoutABC123 = [
+                {
+                    description: { plate: 'DEF456' },
+                    location: { position: { lat: 45.5027, lon: -73.5683 } }
+                }
+            ];
+
+            // Premier traitement avec les deux véhicules
+            const firstResult = tracker.processVehicleData(initialData);
+            expect(firstResult.totalVehicles).toBe(2);
+            expect(firstResult.vehicles['ABC123']).toBeDefined();
+            expect(firstResult.vehicles['DEF456']).toBeDefined();
+
+            // Deuxième traitement sans ABC123 dans l'API
+            const secondResult = tracker.processVehicleData(newDataWithoutABC123);
+            
+            // ABC123 doit être conservé même s'il n'est plus dans l'API
+            expect(secondResult.totalVehicles).toBe(2);
+            expect(secondResult.vehicles['ABC123']).toBeDefined();
+            expect(secondResult.vehicles['DEF456']).toBeDefined();
+            expect(secondResult.vehicles['ABC123'].position).toEqual({ lat: 45.5017, lon: -73.5673 });
+        });
     });
 
     describe('loadExistingData', () => {
