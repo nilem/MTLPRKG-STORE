@@ -10,6 +10,10 @@ jobs:
   fetch-data:
     runs-on: ubuntu-latest
     
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    
     permissions:
       contents: write # Nécessaire pour pousser les changements
       pages: write    # Nécessaire pour déployer sur GitHub Pages
