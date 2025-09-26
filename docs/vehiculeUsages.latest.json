@@ -1,7 +1,4404 @@
 {
-  "timestamp": "2024-01-01T00:00:00.000Z",
-  "lastUpdate": "2024-01-01 00:00:00",
-  "data": {
-    "message": "Données de véhicules non encore disponibles. Le premier déploiement automatique aura lieu à la prochaine heure."
+  "timestamp": "2025-09-26T00:41:43.491Z",
+  "totalVehicles": 488,
+  "vehicles": {
+    "FTK9767": {
+      "position": {
+        "lat": 45.471037,
+        "lon": -73.624396
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK6888": {
+      "position": {
+        "lat": 45.542864,
+        "lon": -73.608436
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9829": {
+      "position": {
+        "lat": 45.546807,
+        "lon": -73.561549
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1999": {
+      "position": {
+        "lat": 45.475092,
+        "lon": -73.610456
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK7077": {
+      "position": {
+        "lat": 45.556293,
+        "lon": -73.613541
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK6913": {
+      "position": {
+        "lat": 45.568875,
+        "lon": -73.585417
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK8568": {
+      "position": {
+        "lat": 45.466274,
+        "lon": -73.563609
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9844": {
+      "position": {
+        "lat": 45.5488,
+        "lon": -73.629189
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1468": {
+      "position": {
+        "lat": 45.549976,
+        "lon": -73.600423
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTN1442": {
+      "position": {
+        "lat": 45.509499,
+        "lon": -73.62328
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9413": {
+      "position": {
+        "lat": 45.550539,
+        "lon": -73.609165
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1537": {
+      "position": {
+        "lat": 45.460227,
+        "lon": -73.593899
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1886": {
+      "position": {
+        "lat": 45.543216,
+        "lon": -73.625294
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1341": {
+      "position": {
+        "lat": 45.548754,
+        "lon": -73.610867
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1414": {
+      "position": {
+        "lat": 45.546675,
+        "lon": -73.598282
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1406": {
+      "position": {
+        "lat": 45.484936,
+        "lon": -73.618553
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL9090": {
+      "position": {
+        "lat": 45.554013,
+        "lon": -73.537867
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1362": {
+      "position": {
+        "lat": 45.458136,
+        "lon": -73.574703
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1869": {
+      "position": {
+        "lat": 45.549574,
+        "lon": -73.594909
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9425": {
+      "position": {
+        "lat": 45.488567,
+        "lon": -73.633303
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL8730": {
+      "position": {
+        "lat": 45.535988,
+        "lon": -73.570226
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1282": {
+      "position": {
+        "lat": 45.495524,
+        "lon": -73.61334
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1879": {
+      "position": {
+        "lat": 45.512958,
+        "lon": -73.56658
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1872": {
+      "position": {
+        "lat": 45.448915,
+        "lon": -73.596032
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1213": {
+      "position": {
+        "lat": 45.55073,
+        "lon": -73.579175
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1477": {
+      "position": {
+        "lat": 45.552283,
+        "lon": -73.580127
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL2065": {
+      "position": {
+        "lat": 45.541735,
+        "lon": -73.60296
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK6842": {
+      "position": {
+        "lat": 45.542258,
+        "lon": -73.613868
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1315": {
+      "position": {
+        "lat": 45.55181,
+        "lon": -73.571226
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL2042": {
+      "position": {
+        "lat": 45.541313,
+        "lon": -73.603214
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL9083": {
+      "position": {
+        "lat": 45.539063,
+        "lon": -73.60205
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1256": {
+      "position": {
+        "lat": 45.509784,
+        "lon": -73.627708
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTN1006": {
+      "position": {
+        "lat": 45.54573,
+        "lon": -73.598751
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9603": {
+      "position": {
+        "lat": 45.468839,
+        "lon": -73.640495
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9122": {
+      "position": {
+        "lat": 45.542481,
+        "lon": -73.546911
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9467": {
+      "position": {
+        "lat": 45.470959,
+        "lon": -73.644064
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1374": {
+      "position": {
+        "lat": 45.549548,
+        "lon": -73.551352
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL9887": {
+      "position": {
+        "lat": 45.547525,
+        "lon": -73.610022
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1997": {
+      "position": {
+        "lat": 45.538176,
+        "lon": -73.604666
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1994": {
+      "position": {
+        "lat": 45.464297,
+        "lon": -73.577733
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9746": {
+      "position": {
+        "lat": 45.528857,
+        "lon": -73.616142
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1241": {
+      "position": {
+        "lat": 45.535085,
+        "lon": -73.593065
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL8705": {
+      "position": {
+        "lat": 45.534918,
+        "lon": -73.587126
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9803": {
+      "position": {
+        "lat": 45.470704,
+        "lon": -73.594478
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9106": {
+      "position": {
+        "lat": 45.544811,
+        "lon": -73.60814
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTN1467": {
+      "position": {
+        "lat": 45.554079,
+        "lon": -73.535607
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1519": {
+      "position": {
+        "lat": 45.547834,
+        "lon": -73.571822
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1867": {
+      "position": {
+        "lat": 45.475798,
+        "lon": -73.603773
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1443": {
+      "position": {
+        "lat": 45.539845,
+        "lon": -73.54381
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK8565": {
+      "position": {
+        "lat": 45.555511,
+        "lon": -73.584882
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTN1017": {
+      "position": {
+        "lat": 45.543997,
+        "lon": -73.603987
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1198": {
+      "position": {
+        "lat": 45.552499,
+        "lon": -73.582992
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK7084": {
+      "position": {
+        "lat": 45.495136,
+        "lon": -73.626608
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK8574": {
+      "position": {
+        "lat": 45.543385,
+        "lon": -73.574681
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9808": {
+      "position": {
+        "lat": 45.5046,
+        "lon": -73.626242
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9770": {
+      "position": {
+        "lat": 45.54322,
+        "lon": -73.62413
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTN1003": {
+      "position": {
+        "lat": 45.452267,
+        "lon": -73.590466
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK6910": {
+      "position": {
+        "lat": 45.567438,
+        "lon": -73.568913
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9598": {
+      "position": {
+        "lat": 45.475294,
+        "lon": -73.603992
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL9897": {
+      "position": {
+        "lat": 45.550058,
+        "lon": -73.608266
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK6993": {
+      "position": {
+        "lat": 45.535165,
+        "lon": -73.609831
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK8571": {
+      "position": {
+        "lat": 45.574887,
+        "lon": -73.586863
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9836": {
+      "position": {
+        "lat": 45.558195,
+        "lon": -73.568138
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK6938": {
+      "position": {
+        "lat": 45.500065,
+        "lon": -73.633994
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9134": {
+      "position": {
+        "lat": 45.494113,
+        "lon": -73.627151
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9723": {
+      "position": {
+        "lat": 45.556739,
+        "lon": -73.528521
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1529": {
+      "position": {
+        "lat": 45.546359,
+        "lon": -73.573581
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK7055": {
+      "position": {
+        "lat": 45.534157,
+        "lon": -73.592835
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9151": {
+      "position": {
+        "lat": 45.558002,
+        "lon": -73.567558
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1864": {
+      "position": {
+        "lat": 45.560212,
+        "lon": -73.595367
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1390": {
+      "position": {
+        "lat": 45.46199,
+        "lon": -73.589233
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1279": {
+      "position": {
+        "lat": 45.552564,
+        "lon": -73.545407
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL7616": {
+      "position": {
+        "lat": 45.494117,
+        "lon": -73.59014
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1964": {
+      "position": {
+        "lat": 45.451809,
+        "lon": -73.598109
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK7066": {
+      "position": {
+        "lat": 45.549263,
+        "lon": -73.615555
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9150": {
+      "position": {
+        "lat": 45.559331,
+        "lon": -73.590507
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9472": {
+      "position": {
+        "lat": 45.549763,
+        "lon": -73.609149
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1508": {
+      "position": {
+        "lat": 45.545962,
+        "lon": -73.622303
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1839": {
+      "position": {
+        "lat": 45.468877,
+        "lon": -73.611203
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTN1005": {
+      "position": {
+        "lat": 45.551588,
+        "lon": -73.539711
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1330": {
+      "position": {
+        "lat": 45.54771,
+        "lon": -73.613869
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1504": {
+      "position": {
+        "lat": 45.556176,
+        "lon": -73.584252
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTN1480": {
+      "position": {
+        "lat": 45.553497,
+        "lon": -73.607247
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK6952": {
+      "position": {
+        "lat": 45.540873,
+        "lon": -73.618411
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL9095": {
+      "position": {
+        "lat": 45.544946,
+        "lon": -73.625608
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1428": {
+      "position": {
+        "lat": 45.553824,
+        "lon": -73.537425
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9470": {
+      "position": {
+        "lat": 45.535003,
+        "lon": -73.612043
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1247": {
+      "position": {
+        "lat": 45.548362,
+        "lon": -73.544322
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1437": {
+      "position": {
+        "lat": 45.534947,
+        "lon": -73.589756
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9797": {
+      "position": {
+        "lat": 45.544676,
+        "lon": -73.559691
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1188": {
+      "position": {
+        "lat": 45.538876,
+        "lon": -73.628674
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9135": {
+      "position": {
+        "lat": 45.470051,
+        "lon": -73.571791
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1211": {
+      "position": {
+        "lat": 45.547986,
+        "lon": -73.595719
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL2099": {
+      "position": {
+        "lat": 45.510817,
+        "lon": -73.625561
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTH2667": {
+      "position": {
+        "lat": 45.555029,
+        "lon": -73.619283
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9718": {
+      "position": {
+        "lat": 45.493597,
+        "lon": -73.612169
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1431": {
+      "position": {
+        "lat": 45.555168,
+        "lon": -73.567814
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1943": {
+      "position": {
+        "lat": 45.450207,
+        "lon": -73.598831
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1217": {
+      "position": {
+        "lat": 45.448841,
+        "lon": -73.601861
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1970": {
+      "position": {
+        "lat": 45.495942,
+        "lon": -73.617587
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1435": {
+      "position": {
+        "lat": 45.548028,
+        "lon": -73.593596
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1272": {
+      "position": {
+        "lat": 45.496056,
+        "lon": -73.62665
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9649": {
+      "position": {
+        "lat": 45.546357,
+        "lon": -73.598191
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9473": {
+      "position": {
+        "lat": 45.493115,
+        "lon": -73.628073
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1990": {
+      "position": {
+        "lat": 45.569311,
+        "lon": -73.568755
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1469": {
+      "position": {
+        "lat": 45.54958,
+        "lon": -73.601818
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9764": {
+      "position": {
+        "lat": 45.495908,
+        "lon": -73.61761
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTN1454": {
+      "position": {
+        "lat": 45.558522,
+        "lon": -73.589232
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1417": {
+      "position": {
+        "lat": 45.467624,
+        "lon": -73.563668
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL8695": {
+      "position": {
+        "lat": 45.553973,
+        "lon": -73.615024
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9606": {
+      "position": {
+        "lat": 45.57462,
+        "lon": -73.589699
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL9891": {
+      "position": {
+        "lat": 45.547975,
+        "lon": -73.557663
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9635": {
+      "position": {
+        "lat": 45.565327,
+        "lon": -73.583619
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL9878": {
+      "position": {
+        "lat": 45.469798,
+        "lon": -73.634258
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK6804": {
+      "position": {
+        "lat": 45.450577,
+        "lon": -73.603396
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1952": {
+      "position": {
+        "lat": 45.557688,
+        "lon": -73.572714
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1984": {
+      "position": {
+        "lat": 45.476609,
+        "lon": -73.626693
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1974": {
+      "position": {
+        "lat": 45.535434,
+        "lon": -73.560246
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9814": {
+      "position": {
+        "lat": 45.526678,
+        "lon": -73.630281
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1002": {
+      "position": {
+        "lat": 45.551931,
+        "lon": -73.610516
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK6904": {
+      "position": {
+        "lat": 45.557312,
+        "lon": -73.540206
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK7040": {
+      "position": {
+        "lat": 45.543943,
+        "lon": -73.565642
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1515": {
+      "position": {
+        "lat": 45.527193,
+        "lon": -73.615643
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1960": {
+      "position": {
+        "lat": 45.545463,
+        "lon": -73.596417
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1502": {
+      "position": {
+        "lat": 45.53815,
+        "lon": -73.63899
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1420": {
+      "position": {
+        "lat": 45.548903,
+        "lon": -73.593485
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9111": {
+      "position": {
+        "lat": 45.547407,
+        "lon": -73.633343
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTN1016": {
+      "position": {
+        "lat": 45.45486,
+        "lon": -73.573524
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTM3047": {
+      "position": {
+        "lat": 45.532659,
+        "lon": -73.610084
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL8743": {
+      "position": {
+        "lat": 45.455733,
+        "lon": -73.575243
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9633": {
+      "position": {
+        "lat": 45.548121,
+        "lon": -73.566558
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL2104": {
+      "position": {
+        "lat": 45.540926,
+        "lon": -73.601419
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9734": {
+      "position": {
+        "lat": 45.56339,
+        "lon": -73.588267
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1252": {
+      "position": {
+        "lat": 45.551732,
+        "lon": -73.60147
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1236": {
+      "position": {
+        "lat": 45.462251,
+        "lon": -73.57515
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL9881": {
+      "position": {
+        "lat": 45.533943,
+        "lon": -73.569977
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1207": {
+      "position": {
+        "lat": 45.551639,
+        "lon": -73.595283
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9646": {
+      "position": {
+        "lat": 45.549261,
+        "lon": -73.598444
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1288": {
+      "position": {
+        "lat": 45.453519,
+        "lon": -73.580711
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK6878": {
+      "position": {
+        "lat": 45.554778,
+        "lon": -73.606255
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK7079": {
+      "position": {
+        "lat": 45.49435,
+        "lon": -73.626971
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1946": {
+      "position": {
+        "lat": 45.457883,
+        "lon": -73.602012
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9682": {
+      "position": {
+        "lat": 45.452854,
+        "lon": -73.589084
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1512": {
+      "position": {
+        "lat": 45.456674,
+        "lon": -73.603684
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1253": {
+      "position": {
+        "lat": 45.558302,
+        "lon": -73.543215
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1521": {
+      "position": {
+        "lat": 45.550908,
+        "lon": -73.611839
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK6949": {
+      "position": {
+        "lat": 45.483568,
+        "lon": -73.618087
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL8752": {
+      "position": {
+        "lat": 45.554458,
+        "lon": -73.61992
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9410": {
+      "position": {
+        "lat": 45.532872,
+        "lon": -73.579597
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9625": {
+      "position": {
+        "lat": 45.550957,
+        "lon": -73.597868
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1383": {
+      "position": {
+        "lat": 45.529186,
+        "lon": -73.61578
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK6951": {
+      "position": {
+        "lat": 45.554623,
+        "lon": -73.59039
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9818": {
+      "position": {
+        "lat": 45.572164,
+        "lon": -73.586309
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL8720": {
+      "position": {
+        "lat": 45.504231,
+        "lon": -73.617765
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9696": {
+      "position": {
+        "lat": 45.454579,
+        "lon": -73.569339
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9153": {
+      "position": {
+        "lat": 45.447562,
+        "lon": -73.60335
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK8567": {
+      "position": {
+        "lat": 45.465465,
+        "lon": -73.579293
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1432": {
+      "position": {
+        "lat": 45.552611,
+        "lon": -73.545277
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9712": {
+      "position": {
+        "lat": 45.53781,
+        "lon": -73.61338
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1808": {
+      "position": {
+        "lat": 45.473815,
+        "lon": -73.630361
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9833": {
+      "position": {
+        "lat": 45.496082,
+        "lon": -73.617357
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9796": {
+      "position": {
+        "lat": 45.500965,
+        "lon": -73.620123
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK6991": {
+      "position": {
+        "lat": 45.529982,
+        "lon": -73.614991
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK7081": {
+      "position": {
+        "lat": 45.537648,
+        "lon": -73.565536
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTN1013": {
+      "position": {
+        "lat": 45.477665,
+        "lon": -73.573453
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1358": {
+      "position": {
+        "lat": 45.544442,
+        "lon": -73.590071
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1324": {
+      "position": {
+        "lat": 45.531773,
+        "lon": -73.615698
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9779": {
+      "position": {
+        "lat": 45.479173,
+        "lon": -73.613304
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1378": {
+      "position": {
+        "lat": 45.494526,
+        "lon": -73.647379
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK8575": {
+      "position": {
+        "lat": 45.556348,
+        "lon": -73.600443
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9787": {
+      "position": {
+        "lat": 45.573633,
+        "lon": -73.589747
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK8569": {
+      "position": {
+        "lat": 45.545376,
+        "lon": -73.580328
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9781": {
+      "position": {
+        "lat": 45.494255,
+        "lon": -73.611625
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL2028": {
+      "position": {
+        "lat": 45.509454,
+        "lon": -73.624325
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9820": {
+      "position": {
+        "lat": 45.558142,
+        "lon": -73.57026
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1385": {
+      "position": {
+        "lat": 45.51855,
+        "lon": -73.565589
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL7615": {
+      "position": {
+        "lat": 45.540092,
+        "lon": -73.594819
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTN1011": {
+      "position": {
+        "lat": 45.503164,
+        "lon": -73.627118
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9813": {
+      "position": {
+        "lat": 45.518392,
+        "lon": -73.57391
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK8576": {
+      "position": {
+        "lat": 45.555716,
+        "lon": -73.615694
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9124": {
+      "position": {
+        "lat": 45.541542,
+        "lon": -73.549069
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9653": {
+      "position": {
+        "lat": 45.468156,
+        "lon": -73.591587
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9451": {
+      "position": {
+        "lat": 45.537942,
+        "lon": -73.580389
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK8547": {
+      "position": {
+        "lat": 45.490868,
+        "lon": -73.628793
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9825": {
+      "position": {
+        "lat": 45.464326,
+        "lon": -73.575618
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9108": {
+      "position": {
+        "lat": 45.556332,
+        "lon": -73.576893
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9423": {
+      "position": {
+        "lat": 45.471124,
+        "lon": -73.645259
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK7061": {
+      "position": {
+        "lat": 45.452773,
+        "lon": -73.580047
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9455": {
+      "position": {
+        "lat": 45.454741,
+        "lon": -73.573436
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1820": {
+      "position": {
+        "lat": 45.548144,
+        "lon": -73.598086
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9667": {
+      "position": {
+        "lat": 45.496729,
+        "lon": -73.572786
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1865": {
+      "position": {
+        "lat": 45.500619,
+        "lon": -73.619925
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1276": {
+      "position": {
+        "lat": 45.484182,
+        "lon": -73.560076
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1877": {
+      "position": {
+        "lat": 45.559917,
+        "lon": -73.540319
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1531": {
+      "position": {
+        "lat": 45.538341,
+        "lon": -73.598424
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1522": {
+      "position": {
+        "lat": 45.554745,
+        "lon": -73.576813
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9113": {
+      "position": {
+        "lat": 45.542255,
+        "lon": -73.557005
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTN1470": {
+      "position": {
+        "lat": 45.541444,
+        "lon": -73.632543
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK6859": {
+      "position": {
+        "lat": 45.545231,
+        "lon": -73.591865
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL9880": {
+      "position": {
+        "lat": 45.548798,
+        "lon": -73.545405
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL9889": {
+      "position": {
+        "lat": 45.522989,
+        "lon": -73.617708
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1337": {
+      "position": {
+        "lat": 45.553387,
+        "lon": -73.578698
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL5075": {
+      "position": {
+        "lat": 45.546869,
+        "lon": -73.634718
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1265": {
+      "position": {
+        "lat": 45.483002,
+        "lon": -73.563664
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1333": {
+      "position": {
+        "lat": 45.473216,
+        "lon": -73.61725
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9678": {
+      "position": {
+        "lat": 45.537174,
+        "lon": -73.580238
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK8562": {
+      "position": {
+        "lat": 45.527647,
+        "lon": -73.616589
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9706": {
+      "position": {
+        "lat": 45.560157,
+        "lon": -73.583341
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9799": {
+      "position": {
+        "lat": 45.553474,
+        "lon": -73.583894
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1280": {
+      "position": {
+        "lat": 45.545951,
+        "lon": -73.593337
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL2045": {
+      "position": {
+        "lat": 45.552937,
+        "lon": -73.572906
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9780": {
+      "position": {
+        "lat": 45.560411,
+        "lon": -73.593909
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTN1018": {
+      "position": {
+        "lat": 45.517611,
+        "lon": -73.572013
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL8713": {
+      "position": {
+        "lat": 45.554546,
+        "lon": -73.589876
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1798": {
+      "position": {
+        "lat": 45.537583,
+        "lon": -73.589446
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1239": {
+      "position": {
+        "lat": 45.551111,
+        "lon": -73.580511
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9141": {
+      "position": {
+        "lat": 45.538165,
+        "lon": -73.55907
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1488": {
+      "position": {
+        "lat": 45.477619,
+        "lon": -73.628797
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9747": {
+      "position": {
+        "lat": 45.556584,
+        "lon": -73.600771
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK6943": {
+      "position": {
+        "lat": 45.55663,
+        "lon": -73.537903
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL2001": {
+      "position": {
+        "lat": 45.552164,
+        "lon": -73.581694
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL5074": {
+      "position": {
+        "lat": 45.54745,
+        "lon": -73.626111
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1269": {
+      "position": {
+        "lat": 45.540655,
+        "lon": -73.626711
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9835": {
+      "position": {
+        "lat": 45.55529,
+        "lon": -73.599988
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK6885": {
+      "position": {
+        "lat": 45.50886,
+        "lon": -73.624639
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK7075": {
+      "position": {
+        "lat": 45.562924,
+        "lon": -73.5982
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9716": {
+      "position": {
+        "lat": 45.536767,
+        "lon": -73.608804
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1827": {
+      "position": {
+        "lat": 45.546382,
+        "lon": -73.607223
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9777": {
+      "position": {
+        "lat": 45.485614,
+        "lon": -73.637072
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL9102": {
+      "position": {
+        "lat": 45.560647,
+        "lon": -73.604614
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK8563": {
+      "position": {
+        "lat": 45.538601,
+        "lon": -73.620291
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1980": {
+      "position": {
+        "lat": 45.53941,
+        "lon": -73.607607
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1948": {
+      "position": {
+        "lat": 45.508797,
+        "lon": -73.578285
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK6995": {
+      "position": {
+        "lat": 45.479564,
+        "lon": -73.624933
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1214": {
+      "position": {
+        "lat": 45.54822,
+        "lon": -73.629831
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9728": {
+      "position": {
+        "lat": 45.546487,
+        "lon": -73.614335
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9839": {
+      "position": {
+        "lat": 45.449788,
+        "lon": -73.604129
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9773": {
+      "position": {
+        "lat": 45.478757,
+        "lon": -73.567042
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL7620": {
+      "position": {
+        "lat": 45.546129,
+        "lon": -73.612155
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9805": {
+      "position": {
+        "lat": 45.462569,
+        "lon": -73.582547
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL9886": {
+      "position": {
+        "lat": 45.549069,
+        "lon": -73.553025
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9148": {
+      "position": {
+        "lat": 45.556344,
+        "lon": -73.529278
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9650": {
+      "position": {
+        "lat": 45.558393,
+        "lon": -73.588927
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1464": {
+      "position": {
+        "lat": 45.553539,
+        "lon": -73.569995
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK8564": {
+      "position": {
+        "lat": 45.536151,
+        "lon": -73.605333
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1803": {
+      "position": {
+        "lat": 45.55163,
+        "lon": -73.593122
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL4312": {
+      "position": {
+        "lat": 45.548741,
+        "lon": -73.584821
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL9065": {
+      "position": {
+        "lat": 45.544767,
+        "lon": -73.559843
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL9885": {
+      "position": {
+        "lat": 45.53505,
+        "lon": -73.5681
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9798": {
+      "position": {
+        "lat": 45.547374,
+        "lon": -73.613237
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9662": {
+      "position": {
+        "lat": 45.553577,
+        "lon": -73.579295
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1514": {
+      "position": {
+        "lat": 45.498663,
+        "lon": -73.652256
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL8733": {
+      "position": {
+        "lat": 45.552647,
+        "lon": -73.564506
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9748": {
+      "position": {
+        "lat": 45.475544,
+        "lon": -73.614988
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9685": {
+      "position": {
+        "lat": 45.56949,
+        "lon": -73.569578
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1528": {
+      "position": {
+        "lat": 45.564676,
+        "lon": -73.581542
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9137": {
+      "position": {
+        "lat": 45.543819,
+        "lon": -73.554194
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9800": {
+      "position": {
+        "lat": 45.490346,
+        "lon": -73.622147
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK7073": {
+      "position": {
+        "lat": 45.54251,
+        "lon": -73.552432
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK6852": {
+      "position": {
+        "lat": 45.556741,
+        "lon": -73.577731
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL8689": {
+      "position": {
+        "lat": 45.549703,
+        "lon": -73.595282
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK7069": {
+      "position": {
+        "lat": 45.495841,
+        "lon": -73.617657
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1381": {
+      "position": {
+        "lat": 45.493923,
+        "lon": -73.646272
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK7080": {
+      "position": {
+        "lat": 45.506838,
+        "lon": -73.573868
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTN1010": {
+      "position": {
+        "lat": 45.532602,
+        "lon": -73.610035
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL2027": {
+      "position": {
+        "lat": 45.488124,
+        "lon": -73.623523
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1526": {
+      "position": {
+        "lat": 45.556208,
+        "lon": -73.593093
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK7054": {
+      "position": {
+        "lat": 45.548081,
+        "lon": -73.584047
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1232": {
+      "position": {
+        "lat": 45.535802,
+        "lon": -73.562859
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1444": {
+      "position": {
+        "lat": 45.540064,
+        "lon": -73.603986
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1346": {
+      "position": {
+        "lat": 45.558182,
+        "lon": -73.608632
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9752": {
+      "position": {
+        "lat": 45.539068,
+        "lon": -73.629247
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1245": {
+      "position": {
+        "lat": 45.533672,
+        "lon": -73.594608
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL9056": {
+      "position": {
+        "lat": 45.535291,
+        "lon": -73.593326
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL5069": {
+      "position": {
+        "lat": 45.53819,
+        "lon": -73.561397
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1210": {
+      "position": {
+        "lat": 45.550435,
+        "lon": -73.544487
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1264": {
+      "position": {
+        "lat": 45.452198,
+        "lon": -73.590743
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9119": {
+      "position": {
+        "lat": 45.448644,
+        "lon": -73.593281
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK6879": {
+      "position": {
+        "lat": 45.543148,
+        "lon": -73.546663
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1186": {
+      "position": {
+        "lat": 45.491758,
+        "lon": -73.590682
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1183": {
+      "position": {
+        "lat": 45.461364,
+        "lon": -73.573615
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1349": {
+      "position": {
+        "lat": 45.549175,
+        "lon": -73.598105
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9757": {
+      "position": {
+        "lat": 45.553585,
+        "lon": -73.614161
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTN1019": {
+      "position": {
+        "lat": 45.508397,
+        "lon": -73.625247
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1220": {
+      "position": {
+        "lat": 45.546595,
+        "lon": -73.610811
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9729": {
+      "position": {
+        "lat": 45.552759,
+        "lon": -73.574595
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9143": {
+      "position": {
+        "lat": 45.537147,
+        "lon": -73.609636
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTN1445": {
+      "position": {
+        "lat": 45.540208,
+        "lon": -73.602381
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL8687": {
+      "position": {
+        "lat": 45.571763,
+        "lon": -73.578698
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK7028": {
+      "position": {
+        "lat": 45.542962,
+        "lon": -73.6086
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1847": {
+      "position": {
+        "lat": 45.543499,
+        "lon": -73.598957
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9670": {
+      "position": {
+        "lat": 45.562439,
+        "lon": -73.591207
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9789": {
+      "position": {
+        "lat": 45.535548,
+        "lon": -73.587523
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9144": {
+      "position": {
+        "lat": 45.526632,
+        "lon": -73.606072
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL5070": {
+      "position": {
+        "lat": 45.50855,
+        "lon": -73.619858
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9107": {
+      "position": {
+        "lat": 45.558002,
+        "lon": -73.547837
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1275": {
+      "position": {
+        "lat": 45.449807,
+        "lon": -73.595
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9742": {
+      "position": {
+        "lat": 45.538806,
+        "lon": -73.580316
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1835": {
+      "position": {
+        "lat": 45.556326,
+        "lon": -73.573998
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL2002": {
+      "position": {
+        "lat": 45.516774,
+        "lon": -73.584487
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL8725": {
+      "position": {
+        "lat": 45.555871,
+        "lon": -73.577905
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL7609": {
+      "position": {
+        "lat": 45.557968,
+        "lon": -73.604272
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1356": {
+      "position": {
+        "lat": 45.56967,
+        "lon": -73.56995
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1503": {
+      "position": {
+        "lat": 45.536728,
+        "lon": -73.606692
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9791": {
+      "position": {
+        "lat": 45.450531,
+        "lon": -73.600375
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9758": {
+      "position": {
+        "lat": 45.540986,
+        "lon": -73.541711
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9460": {
+      "position": {
+        "lat": 45.542569,
+        "lon": -73.599104
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1851": {
+      "position": {
+        "lat": 45.488934,
+        "lon": -73.630696
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK6939": {
+      "position": {
+        "lat": 45.561738,
+        "lon": -73.593719
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9794": {
+      "position": {
+        "lat": 45.470582,
+        "lon": -73.641301
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9138": {
+      "position": {
+        "lat": 45.532868,
+        "lon": -73.60482
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL9899": {
+      "position": {
+        "lat": 45.549871,
+        "lon": -73.589478
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1203": {
+      "position": {
+        "lat": 45.549255,
+        "lon": -73.598426
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL2006": {
+      "position": {
+        "lat": 45.537189,
+        "lon": -73.604176
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK7007": {
+      "position": {
+        "lat": 45.459567,
+        "lon": -73.574097
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1215": {
+      "position": {
+        "lat": 45.546351,
+        "lon": -73.566171
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK6890": {
+      "position": {
+        "lat": 45.45276,
+        "lon": -73.578777
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1825": {
+      "position": {
+        "lat": 45.542928,
+        "lon": -73.590784
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL2059": {
+      "position": {
+        "lat": 45.538853,
+        "lon": -73.580237
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1853": {
+      "position": {
+        "lat": 45.498973,
+        "lon": -73.622762
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK6848": {
+      "position": {
+        "lat": 45.537499,
+        "lon": -73.608147
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9129": {
+      "position": {
+        "lat": 45.567046,
+        "lon": -73.595902
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1419": {
+      "position": {
+        "lat": 45.555022,
+        "lon": -73.580458
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9778": {
+      "position": {
+        "lat": 45.549091,
+        "lon": -73.628953
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1440": {
+      "position": {
+        "lat": 45.533715,
+        "lon": -73.60196
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9614": {
+      "position": {
+        "lat": 45.541821,
+        "lon": -73.621799
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9555": {
+      "position": {
+        "lat": 45.54899,
+        "lon": -73.597693
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1395": {
+      "position": {
+        "lat": 45.53698,
+        "lon": -73.595402
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL8683": {
+      "position": {
+        "lat": 45.499195,
+        "lon": -73.620023
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1192": {
+      "position": {
+        "lat": 45.54158,
+        "lon": -73.538069
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL8692": {
+      "position": {
+        "lat": 45.542726,
+        "lon": -73.636974
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9817": {
+      "position": {
+        "lat": 45.542318,
+        "lon": -73.630936
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTN1014": {
+      "position": {
+        "lat": 45.496577,
+        "lon": -73.629203
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTN1002": {
+      "position": {
+        "lat": 45.564675,
+        "lon": -73.574643
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL2022": {
+      "position": {
+        "lat": 45.567524,
+        "lon": -73.568859
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1286": {
+      "position": {
+        "lat": 45.541586,
+        "lon": -73.62091
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1871": {
+      "position": {
+        "lat": 45.559903,
+        "lon": -73.545507
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9793": {
+      "position": {
+        "lat": 45.548126,
+        "lon": -73.552551
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1474": {
+      "position": {
+        "lat": 45.556476,
+        "lon": -73.600641
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK7065": {
+      "position": {
+        "lat": 45.468767,
+        "lon": -73.636444
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1335": {
+      "position": {
+        "lat": 45.470139,
+        "lon": -73.624887
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9127": {
+      "position": {
+        "lat": 45.54638,
+        "lon": -73.6124
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL7606": {
+      "position": {
+        "lat": 45.551572,
+        "lon": -73.609579
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9437": {
+      "position": {
+        "lat": 45.558953,
+        "lon": -73.593568
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9431": {
+      "position": {
+        "lat": 45.56561,
+        "lon": -73.601482
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1235": {
+      "position": {
+        "lat": 45.546486,
+        "lon": -73.612833
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9110": {
+      "position": {
+        "lat": 45.493278,
+        "lon": -73.627939
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1966": {
+      "position": {
+        "lat": 45.540298,
+        "lon": -73.618801
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1185": {
+      "position": {
+        "lat": 45.57526,
+        "lon": -73.593012
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1956": {
+      "position": {
+        "lat": 45.549712,
+        "lon": -73.612855
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK7035": {
+      "position": {
+        "lat": 45.552242,
+        "lon": -73.624144
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9109": {
+      "position": {
+        "lat": 45.477724,
+        "lon": -73.614586
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL9894": {
+      "position": {
+        "lat": 45.534349,
+        "lon": -73.593208
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1222": {
+      "position": {
+        "lat": 45.495856,
+        "lon": -73.6377
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9762": {
+      "position": {
+        "lat": 45.527738,
+        "lon": -73.616719
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK6956": {
+      "position": {
+        "lat": 45.545907,
+        "lon": -73.636072
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1837": {
+      "position": {
+        "lat": 45.496356,
+        "lon": -73.575844
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL7612": {
+      "position": {
+        "lat": 45.462356,
+        "lon": -73.578006
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL2035": {
+      "position": {
+        "lat": 45.568014,
+        "lon": -73.568944
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9140": {
+      "position": {
+        "lat": 45.523044,
+        "lon": -73.557543
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1844": {
+      "position": {
+        "lat": 45.569553,
+        "lon": -73.569618
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1377": {
+      "position": {
+        "lat": 45.535234,
+        "lon": -73.601159
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1532": {
+      "position": {
+        "lat": 45.552222,
+        "lon": -73.578841
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9155": {
+      "position": {
+        "lat": 45.547709,
+        "lon": -73.564562
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9641": {
+      "position": {
+        "lat": 45.47737,
+        "lon": -73.622708
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK7057": {
+      "position": {
+        "lat": 45.547783,
+        "lon": -73.613915
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1388": {
+      "position": {
+        "lat": 45.5372,
+        "lon": -73.604281
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTN1007": {
+      "position": {
+        "lat": 45.531519,
+        "lon": -73.612626
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1811": {
+      "position": {
+        "lat": 45.539992,
+        "lon": -73.546769
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1243": {
+      "position": {
+        "lat": 45.492991,
+        "lon": -73.646303
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL2043": {
+      "position": {
+        "lat": 45.477092,
+        "lon": -73.622274
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1977": {
+      "position": {
+        "lat": 45.512926,
+        "lon": -73.623927
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL9062": {
+      "position": {
+        "lat": 45.512186,
+        "lon": -73.622414
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9713": {
+      "position": {
+        "lat": 45.548939,
+        "lon": -73.59992
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1487": {
+      "position": {
+        "lat": 45.511849,
+        "lon": -73.626187
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL2100": {
+      "position": {
+        "lat": 45.572885,
+        "lon": -73.587975
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL2072": {
+      "position": {
+        "lat": 45.541047,
+        "lon": -73.621155
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9656": {
+      "position": {
+        "lat": 45.543834,
+        "lon": -73.633692
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK6923": {
+      "position": {
+        "lat": 45.550686,
+        "lon": -73.581246
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK6917": {
+      "position": {
+        "lat": 45.555026,
+        "lon": -73.575015
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9702": {
+      "position": {
+        "lat": 45.55361,
+        "lon": -73.579614
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9708": {
+      "position": {
+        "lat": 45.553816,
+        "lon": -73.595728
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9154": {
+      "position": {
+        "lat": 45.535119,
+        "lon": -73.577456
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9145": {
+      "position": {
+        "lat": 45.554768,
+        "lon": -73.582384
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9711": {
+      "position": {
+        "lat": 45.482826,
+        "lon": -73.576128
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK8558": {
+      "position": {
+        "lat": 45.545842,
+        "lon": -73.573906
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1271": {
+      "position": {
+        "lat": 45.4536,
+        "lon": -73.568834
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9146": {
+      "position": {
+        "lat": 45.467186,
+        "lon": -73.56511
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK8557": {
+      "position": {
+        "lat": 45.537289,
+        "lon": -73.580335
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTN2232": {
+      "position": {
+        "lat": 45.539025,
+        "lon": -73.595922
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL5073": {
+      "position": {
+        "lat": 45.539838,
+        "lon": -73.622358
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL9070": {
+      "position": {
+        "lat": 45.543737,
+        "lon": -73.563891
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9699": {
+      "position": {
+        "lat": 45.493254,
+        "lon": -73.590301
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9679": {
+      "position": {
+        "lat": 45.558045,
+        "lon": -73.585149
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK8561": {
+      "position": {
+        "lat": 45.550324,
+        "lon": -73.561529
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1351": {
+      "position": {
+        "lat": 45.546123,
+        "lon": -73.566304
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1461": {
+      "position": {
+        "lat": 45.540498,
+        "lon": -73.602915
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9790": {
+      "position": {
+        "lat": 45.540584,
+        "lon": -73.576018
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK6962": {
+      "position": {
+        "lat": 45.559074,
+        "lon": -73.585481
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1403": {
+      "position": {
+        "lat": 45.53872,
+        "lon": -73.638746
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK6946": {
+      "position": {
+        "lat": 45.544682,
+        "lon": -73.594496
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1364": {
+      "position": {
+        "lat": 45.555286,
+        "lon": -73.617981
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9149": {
+      "position": {
+        "lat": 45.55801,
+        "lon": -73.542365
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL9890": {
+      "position": {
+        "lat": 45.451715,
+        "lon": -73.59814
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9618": {
+      "position": {
+        "lat": 45.46127,
+        "lon": -73.595704
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9660": {
+      "position": {
+        "lat": 45.551213,
+        "lon": -73.571448
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL9883": {
+      "position": {
+        "lat": 45.559264,
+        "lon": -73.546306
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1208": {
+      "position": {
+        "lat": 45.552425,
+        "lon": -73.573413
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9801": {
+      "position": {
+        "lat": 45.536946,
+        "lon": -73.597226
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL9896": {
+      "position": {
+        "lat": 45.463469,
+        "lon": -73.570121
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK6866": {
+      "position": {
+        "lat": 45.554313,
+        "lon": -73.605433
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1322": {
+      "position": {
+        "lat": 45.548641,
+        "lon": -73.629366
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK6953": {
+      "position": {
+        "lat": 45.538398,
+        "lon": -73.584336
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL9882": {
+      "position": {
+        "lat": 45.548675,
+        "lon": -73.588758
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1832": {
+      "position": {
+        "lat": 45.565095,
+        "lon": -73.582611
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9841": {
+      "position": {
+        "lat": 45.485894,
+        "lon": -73.631651
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL9895": {
+      "position": {
+        "lat": 45.546878,
+        "lon": -73.627485
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK7009": {
+      "position": {
+        "lat": 45.48592,
+        "lon": -73.618628
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1465": {
+      "position": {
+        "lat": 45.536323,
+        "lon": -73.600483
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1466": {
+      "position": {
+        "lat": 45.526567,
+        "lon": -73.61637
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9428": {
+      "position": {
+        "lat": 45.540401,
+        "lon": -73.624263
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1190": {
+      "position": {
+        "lat": 45.468856,
+        "lon": -73.571658
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9686": {
+      "position": {
+        "lat": 45.555274,
+        "lon": -73.584369
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9674": {
+      "position": {
+        "lat": 45.550073,
+        "lon": -73.581452
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1195": {
+      "position": {
+        "lat": 45.536946,
+        "lon": -73.572587
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1797": {
+      "position": {
+        "lat": 45.478261,
+        "lon": -73.626508
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9458": {
+      "position": {
+        "lat": 45.49538,
+        "lon": -73.624718
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK6898": {
+      "position": {
+        "lat": 45.54582,
+        "lon": -73.635732
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1483": {
+      "position": {
+        "lat": 45.539279,
+        "lon": -73.547081
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1368": {
+      "position": {
+        "lat": 45.536015,
+        "lon": -73.585577
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1343": {
+      "position": {
+        "lat": 45.468259,
+        "lon": -73.622527
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9563": {
+      "position": {
+        "lat": 45.568067,
+        "lon": -73.569069
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK8560": {
+      "position": {
+        "lat": 45.462215,
+        "lon": -73.563299
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9816": {
+      "position": {
+        "lat": 45.559037,
+        "lon": -73.545285
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL9900": {
+      "position": {
+        "lat": 45.556061,
+        "lon": -73.616148
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9547": {
+      "position": {
+        "lat": 45.548738,
+        "lon": -73.543465
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9432": {
+      "position": {
+        "lat": 45.538912,
+        "lon": -73.6215
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9435": {
+      "position": {
+        "lat": 45.485151,
+        "lon": -73.640497
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9620": {
+      "position": {
+        "lat": 45.496965,
+        "lon": -73.63706
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK7033": {
+      "position": {
+        "lat": 45.498822,
+        "lon": -73.625546
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9498": {
+      "position": {
+        "lat": 45.56486,
+        "lon": -73.575338
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9664": {
+      "position": {
+        "lat": 45.554472,
+        "lon": -73.573338
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK6861": {
+      "position": {
+        "lat": 45.485691,
+        "lon": -73.61795
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL2034": {
+      "position": {
+        "lat": 45.563184,
+        "lon": -73.574157
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1524": {
+      "position": {
+        "lat": 45.552403,
+        "lon": -73.624461
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL8759": {
+      "position": {
+        "lat": 45.521866,
+        "lon": -73.56879
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK8551": {
+      "position": {
+        "lat": 45.533598,
+        "lon": -73.551301
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK6935": {
+      "position": {
+        "lat": 45.560017,
+        "lon": -73.573774
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9546": {
+      "position": {
+        "lat": 45.547396,
+        "lon": -73.633419
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL7618": {
+      "position": {
+        "lat": 45.548196,
+        "lon": -73.60585
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1905": {
+      "position": {
+        "lat": 45.549289,
+        "lon": -73.615634
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL9888": {
+      "position": {
+        "lat": 45.558041,
+        "lon": -73.570138
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL9059": {
+      "position": {
+        "lat": 45.486973,
+        "lon": -73.627564
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL2010": {
+      "position": {
+        "lat": 45.509639,
+        "lon": -73.627638
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL2114": {
+      "position": {
+        "lat": 45.547672,
+        "lon": -73.577995
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1530": {
+      "position": {
+        "lat": 45.555761,
+        "lon": -73.57761
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL2068": {
+      "position": {
+        "lat": 45.546944,
+        "lon": -73.630317
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1342": {
+      "position": {
+        "lat": 45.527547,
+        "lon": -73.560868
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL5078": {
+      "position": {
+        "lat": 45.533729,
+        "lon": -73.584408
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1458": {
+      "position": {
+        "lat": 45.478986,
+        "lon": -73.566093
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL2063": {
+      "position": {
+        "lat": 45.550331,
+        "lon": -73.544308
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL2118": {
+      "position": {
+        "lat": 45.538714,
+        "lon": -73.582438
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1489": {
+      "position": {
+        "lat": 45.465916,
+        "lon": -73.591697
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL2019": {
+      "position": {
+        "lat": 45.479383,
+        "lon": -73.613158
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1969": {
+      "position": {
+        "lat": 45.476094,
+        "lon": -73.60556
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1796": {
+      "position": {
+        "lat": 45.553192,
+        "lon": -73.543694
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1860": {
+      "position": {
+        "lat": 45.506866,
+        "lon": -73.615534
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1438": {
+      "position": {
+        "lat": 45.508777,
+        "lon": -73.620523
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1949": {
+      "position": {
+        "lat": 45.453642,
+        "lon": -73.585604
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9466": {
+      "position": {
+        "lat": 45.54359,
+        "lon": -73.564595
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9112": {
+      "position": {
+        "lat": 45.530132,
+        "lon": -73.564809
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9489": {
+      "position": {
+        "lat": 45.547052,
+        "lon": -73.608943
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1340": {
+      "position": {
+        "lat": 45.446959,
+        "lon": -73.593836
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK8566": {
+      "position": {
+        "lat": 45.482549,
+        "lon": -73.564376
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL2073": {
+      "position": {
+        "lat": 45.532069,
+        "lon": -73.600876
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL8739": {
+      "position": {
+        "lat": 45.449601,
+        "lon": -73.593655
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9745": {
+      "position": {
+        "lat": 45.550784,
+        "lon": -73.597554
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1995": {
+      "position": {
+        "lat": 45.533984,
+        "lon": -73.602532
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK7045": {
+      "position": {
+        "lat": 45.5508,
+        "lon": -73.594842
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1354": {
+      "position": {
+        "lat": 45.555511,
+        "lon": -73.582159
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL9085": {
+      "position": {
+        "lat": 45.547809,
+        "lon": -73.584667
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1334": {
+      "position": {
+        "lat": 45.553488,
+        "lon": -73.621397
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL9884": {
+      "position": {
+        "lat": 45.530611,
+        "lon": -73.614912
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTN1015": {
+      "position": {
+        "lat": 45.534041,
+        "lon": -73.59862
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9701": {
+      "position": {
+        "lat": 45.543714,
+        "lon": -73.632678
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9417": {
+      "position": {
+        "lat": 45.554176,
+        "lon": -73.61556
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTL1883": {
+      "position": {
+        "lat": 45.55325,
+        "lon": -73.613478
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    },
+    "FTK9142": {
+      "position": {
+        "lat": 45.529989,
+        "lon": -73.626072
+      },
+      "lastUpdate": "2025-09-26T00:41:43.491Z",
+      "firstSeen": "2025-09-26T00:41:43.491Z",
+      "movementHistory": []
+    }
+  },
+  "lastUpdate": "2025-09-25 20 h 41 min 43 s",
+  "statistics": {
+    "totalVehicles": 488,
+    "vehiclesWithMovements": 0,
+    "totalMovements": 0
   }
 }
