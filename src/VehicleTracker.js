@@ -30,6 +30,8 @@ export class VehicleTracker {
             }
 
             const newPosition = vehicle.location?.position;
+            const newEnergyLevel = vehicle.status?.energyLevel;
+            
             if (!isValidPosition(newPosition)) {
                 console.warn(`Invalid position for vehicle ${plate}:`, newPosition);
                 continue;
@@ -38,9 +40,20 @@ export class VehicleTracker {
             const existingVehicle = this.vehicles.get(plate);
 
             if (existingVehicle) {
-                // Véhicule existant - vérifier s'il a bougé avant de mettre à jour la position
-                const hasMoved = hasVehicleMoved(existingVehicle.position, newPosition);
+                // Véhicule existant - vérifier s'il a bougé ou si l'énergie a changé
+                const currentState = { 
+                    position: existingVehicle.position, 
+                    lastEnergyLevel: existingVehicle.lastEnergyLevel 
+                };
+                const newState = { 
+                    position: newPosition, 
+                    lastEnergyLevel: newEnergyLevel 
+                };
+                
+                const hasMoved = hasVehicleMoved(currentState, newState);
                 existingVehicle.position = newPosition;
+                existingVehicle.lastEnergyLevel = newEnergyLevel;
+                
                 if (hasMoved) {
                     existingVehicle.lastUpdate = currentTime;
                 }
@@ -48,6 +61,7 @@ export class VehicleTracker {
                 // Nouveau véhicule
                 this.vehicles.set(plate, {
                     position: newPosition,
+                    lastEnergyLevel: newEnergyLevel,
                     lastUpdate: currentTime,
                 });
             }

@@ -123,6 +123,37 @@ describe('VehicleTracker', () => {
             const vehicleKeys = Array.from(tracker.vehicles.keys());
             expect(vehicleKeys).toEqual(['ABC123', 'DEF456', 'GHI789']);
         });
+
+        test('met à jour lastUpdate quand le niveau d\'énergie change même sans mouvement', async () => {
+            const initialData = [
+                { 
+                    description: { plate: 'ABC123', energyLevel: 90 }, 
+                    location: { position: { lat: 1, lon: 1 } } 
+                }
+            ];
+            
+            // Premier traitement
+            tracker.processVehicleData(initialData);
+            const firstUpdate = tracker.vehicles.get('ABC123').lastUpdate;
+            expect(tracker.vehicles.get('ABC123').lastEnergyLevel).toBe(90);
+            
+            // Attendre un peu pour s'assurer que le timestamp change
+            await new Promise(resolve => setTimeout(resolve, 2));
+            
+            // Deuxième traitement - même position mais énergie différente
+            const energyChangedData = [
+                { 
+                    description: { plate: 'ABC123', energyLevel: 87 }, 
+                    location: { position: { lat: 1, lon: 1 } } // Même position
+                }
+            ];
+            tracker.processVehicleData(energyChangedData);
+            
+            // L'énergie a changé, donc lastUpdate devrait être mis à jour
+            expect(tracker.vehicles.get('ABC123').lastUpdate).not.toBe(firstUpdate);
+            expect(tracker.vehicles.get('ABC123').lastEnergyLevel).toBe(87);
+            expect(tracker.vehicles.get('ABC123').position).toEqual({ lat: 1, lon: 1 }); // Position inchangée
+        });
     });
 
     describe('loadExistingData', () => {
