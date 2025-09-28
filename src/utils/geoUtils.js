@@ -13,7 +13,13 @@ export function hasVehicleMoved(position1, position2) {
         return true; // Considérer comme déplacé si on n'a pas les deux positions
     }
 
-    return position1.lat !== position2.lat || position1.lon !== position2.lon;
+    // Comparer seulement les 4 premiers chiffres après la virgule pour déterminer un mouvement significatif
+    const lat1Truncated = Math.trunc(position1.lat * 10000) / 10000;
+    const lon1Truncated = Math.trunc(position1.lon * 10000) / 10000;
+    const lat2Truncated = Math.trunc(position2.lat * 10000) / 10000;
+    const lon2Truncated = Math.trunc(position2.lon * 10000) / 10000;
+
+    return lat1Truncated !== lat2Truncated || lon1Truncated !== lon2Truncated;
 }
 
 /**

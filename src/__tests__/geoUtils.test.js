@@ -42,6 +42,30 @@ describe('geoUtils', () => {
             expect(hasVehicleMoved(undefined, basePosition)).toBe(true);
             expect(hasVehicleMoved(basePosition, undefined)).toBe(true);
         });
+
+        test('ignore les micro-mouvements (précision limitée à 4 chiffres)', () => {
+            const basePosition = { lat: 45.5017, lon: -73.5673 };
+            
+            // Micro-mouvements qui devraient être ignorés (changements au 5e chiffre et plus)
+            const microMovement1 = { lat: 45.50170001, lon: -73.5673 }; // Changement au 8e chiffre
+            const microMovement2 = { lat: 45.5017, lon: -73.56730009 }; // Changement au 8e chiffre
+            const microMovement3 = { lat: 45.501700001, lon: -73.567300009 }; // Changements aux 9e chiffres
+            const microMovement4 = { lat: 45.50171, lon: -73.5673 }; // Changement au 5e chiffre (ignoré)
+            
+            expect(hasVehicleMoved(basePosition, microMovement1)).toBe(false);
+            expect(hasVehicleMoved(basePosition, microMovement2)).toBe(false);
+            expect(hasVehicleMoved(basePosition, microMovement3)).toBe(false);
+            expect(hasVehicleMoved(basePosition, microMovement4)).toBe(false);
+            
+            // Mouvements significatifs qui devraient être détectés (changements au 4e chiffre)
+            const significantMovement1 = { lat: 45.5018, lon: -73.5673 }; // Changement au 4e chiffre
+            const significantMovement2 = { lat: 45.5017, lon: -73.5674 }; // Changement au 4e chiffre
+            const minimalSignificantMovement = { lat: 45.5017, lon: -73.5672 }; // Changement au 4e chiffre (limite détectable)
+            
+            expect(hasVehicleMoved(basePosition, significantMovement1)).toBe(true);
+            expect(hasVehicleMoved(basePosition, significantMovement2)).toBe(true);
+            expect(hasVehicleMoved(basePosition, minimalSignificantMovement)).toBe(true);
+        });
     });
 
     describe('isValidPosition', () => {

@@ -38,10 +38,10 @@ export class VehicleTracker {
             const existingVehicle = this.vehicles.get(plate);
 
             if (existingVehicle) {
-                // Véhicule existant
+                // Véhicule existant - vérifier s'il a bougé avant de mettre à jour la position
                 const hasMoved = hasVehicleMoved(existingVehicle.position, newPosition);
+                existingVehicle.position = newPosition;
                 if (hasMoved) {
-                    existingVehicle.position = newPosition;
                     existingVehicle.lastUpdate = currentTime;
                 }
             } else {
