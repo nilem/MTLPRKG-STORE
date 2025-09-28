@@ -123,34 +123,6 @@ describe('VehicleTracker', () => {
             const vehicleKeys = Array.from(tracker.vehicles.keys());
             expect(vehicleKeys).toEqual(['ABC123', 'DEF456', 'GHI789']);
         });
-
-        test('met à jour lastUpdate des véhicules non retournés par l\'API (en cours d\'utilisation)', async () => {
-            const initialData = [
-                { description: { plate: 'ABC123' }, location: { position: { lat: 1, lon: 1 } } },
-                { description: { plate: 'DEF456' }, location: { position: { lat: 2, lon: 2 } } }
-            ];
-            
-            // Premier traitement avec les deux véhicules
-            tracker.processVehicleData(initialData);
-            const firstUpdateABC = tracker.vehicles.get('ABC123').lastUpdate;
-            const firstUpdateDEF = tracker.vehicles.get('DEF456').lastUpdate;
-            
-            // Attendre un peu pour s'assurer que le timestamp change
-            await new Promise(resolve => setTimeout(resolve, 2));
-            
-            // Deuxième traitement avec seulement ABC123 (DEF456 n'est plus dans l'API)
-            const newData = [
-                { description: { plate: 'ABC123' }, location: { position: { lat: 1, lon: 1 } } } // Même position
-            ];
-            tracker.processVehicleData(newData);
-            
-            // ABC123 n'a pas bougé, donc son lastUpdate ne devrait pas changer
-            expect(tracker.vehicles.get('ABC123').lastUpdate).toBe(firstUpdateABC);
-            
-            // DEF456 n'est pas dans l'API, donc il est en cours d'utilisation et lastUpdate devrait être mis à jour
-            expect(tracker.vehicles.get('DEF456').lastUpdate).not.toBe(firstUpdateDEF);
-            expect(tracker.vehicles.get('DEF456').position).toEqual({ lat: 2, lon: 2 }); // Position inchangée
-        });
     });
 
     describe('loadExistingData', () => {

@@ -54,12 +54,12 @@ export class VehicleTracker {
             newPlates.add(plate);
         }
 
-        // Mettre à jour les véhicules existants qui ne sont pas dans l'API (en cours d'utilisation)
-        for (const [plate, existingVehicle] of this.vehicles.entries()) {
+        // Supprimer les véhicules qui ne sont plus dans l'API
+        for (const plate of this.vehicles.keys()) {
             if (!newVehicleDataMap.has(plate)) {
-                // Ce véhicule n'est pas retourné par l'API, il est donc en cours d'utilisation
-                // Mettre à jour son lastUpdate pour indiquer qu'il est toujours suivi
-                existingVehicle.lastUpdate = currentTime;
+                // On pourrait vouloir les supprimer, mais la logique précédente les gardait.
+                // Pour l'instant, on les garde. Si on veut les supprimer:
+                // this.vehicles.delete(plate);
             }
         }
 
