@@ -21,7 +21,7 @@ export function hasVehicleMoved(vehicleState1, vehicleState2) {
     }
 
     // Comparer seulement les 4 premiers chiffres après la virgule pour déterminer un mouvement significatif
-    const precision = 10000;
+    const precision = 1000;
     const lat1Truncated = Math.round(position1.lat * precision) / precision;
     const lon1Truncated = Math.round(position1.lon * precision) / precision;
     const lat2Truncated = Math.round(position2.lat * precision) / precision;
