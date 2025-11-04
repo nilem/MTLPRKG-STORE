@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-11-04T06:22:52.367Z",
+  "timestamp": "2025-11-04T07:14:54.257Z",
   "totalVehicles": 599,
   "vehicles": {
     "FTK9767": {
@@ -283,12 +283,12 @@
     },
     "FTL1256": {
       "position": {
-        "lat": 45.532327,
-        "lon": -73.5684
+        "lat": 45.4701,
+        "lon": -73.594658
       },
-      "lastUpdate": "2025-11-04T01:08:35.979Z",
+      "lastUpdate": "2025-11-04T07:14:54.257Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 331
+      "lastEnergyLevel": 317
     },
     "FTN1006": {
       "position": {
@@ -1075,12 +1075,12 @@
     },
     "FTK9639": {
       "position": {
-        "lat": 45.454674,
-        "lon": -73.585877
+        "lat": 45.497281,
+        "lon": -73.571739
       },
-      "lastUpdate": "2025-11-01T23:12:42.354Z",
+      "lastUpdate": "2025-11-04T07:14:54.257Z",
       "firstSeen": "2025-09-26T03:41:44.761Z",
-      "lastEnergyLevel": 276
+      "lastEnergyLevel": 264
     },
     "FTK6804": {
       "position": {
@@ -2821,8 +2821,8 @@
     },
     "FTK9789": {
       "position": {
-        "lat": 45.551629,
-        "lon": -73.619035
+        "lat": 45.551639,
+        "lon": -73.619057
       },
       "lastUpdate": "2025-11-02T21:11:53.507Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -4585,8 +4585,8 @@
     },
     "FTL9884": {
       "position": {
-        "lat": 45.522779,
-        "lon": -73.568574
+        "lat": 45.52277,
+        "lon": -73.568599
       },
       "lastUpdate": "2025-11-04T03:06:23.026Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -4802,11 +4802,11 @@
     },
     "FTL9079": {
       "position": {
-        "lat": 45.520036,
-        "lon": -73.594392
+        "lat": 45.503669,
+        "lon": -73.62805
       },
-      "lastUpdate": "2025-11-04T01:08:35.979Z",
-      "lastEnergyLevel": 217
+      "lastUpdate": "2025-11-04T07:14:54.257Z",
+      "lastEnergyLevel": 207
     },
     "FTL9093": {
       "position": {
@@ -5321,5 +5321,5 @@
       "lastUpdate": "2025-11-02T18:17:41.395Z"
     }
   },
-  "lastUpdate": "2025-11-04 01 h 22 min 52 s"
+  "lastUpdate": "2025-11-04 02 h 14 min 54 s"
 }
