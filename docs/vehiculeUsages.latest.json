@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-11-11T08:20:29.496Z",
+  "timestamp": "2025-11-11T09:16:35.867Z",
   "totalVehicles": 599,
   "vehicles": {
     "FTK9767": {
@@ -427,8 +427,8 @@
     },
     "FTL1867": {
       "position": {
-        "lat": 45.452187,
-        "lon": -73.592688
+        "lat": 45.452143,
+        "lon": -73.59263
       },
       "lastUpdate": "2025-11-10T20:17:33.701Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -859,12 +859,12 @@
     },
     "FTL1188": {
       "position": {
-        "lat": 45.471181,
-        "lon": -73.64281
+        "lat": 45.530496,
+        "lon": -73.639499
       },
-      "lastUpdate": "2025-11-08T23:12:21.127Z",
+      "lastUpdate": "2025-11-11T09:16:35.867Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 300
+      "lastEnergyLevel": 266
     },
     "FTK9135": {
       "position": {
@@ -5321,5 +5321,5 @@
       "lastUpdate": "2025-11-11T01:10:17.506Z"
     }
   },
-  "lastUpdate": "2025-11-11 03 h 20 min 29 s"
+  "lastUpdate": "2025-11-11 04 h 16 min 35 s"
 }
