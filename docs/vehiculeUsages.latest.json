@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-12-21T10:15:20.512Z",
+  "timestamp": "2025-12-21T11:12:36.078Z",
   "totalVehicles": 599,
   "vehicles": {
     "FTK9767": {
@@ -427,12 +427,12 @@
     },
     "FTL1867": {
       "position": {
-        "lat": 45.522865,
-        "lon": -73.575326
+        "lat": 45.467431,
+        "lon": -73.622021
       },
-      "lastUpdate": "2025-12-21T03:24:54.983Z",
+      "lastUpdate": "2025-12-21T11:12:36.078Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 487
+      "lastEnergyLevel": 450
     },
     "FTL1443": {
       "position": {
@@ -1084,8 +1084,8 @@
     },
     "FTK6804": {
       "position": {
-        "lat": 45.508921,
-        "lon": -73.627983
+        "lat": 45.508883,
+        "lon": -73.627977
       },
       "lastUpdate": "2025-12-19T01:14:09.123Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -1831,8 +1831,8 @@
     },
     "FTL1820": {
       "position": {
-        "lat": 45.543675,
-        "lon": -73.574723
+        "lat": 45.54403,
+        "lon": -73.575038
       },
       "lastUpdate": "2025-12-21T08:19:39.572Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -3829,12 +3829,12 @@
     },
     "FTL1364": {
       "position": {
-        "lat": 45.474614,
-        "lon": -73.60782
+        "lat": 45.546836,
+        "lon": -73.604704
       },
-      "lastUpdate": "2025-12-21T08:19:39.572Z",
+      "lastUpdate": "2025-12-21T11:12:36.078Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 413
+      "lastEnergyLevel": 412
     },
     "FTK9149": {
       "position": {
@@ -3946,12 +3946,12 @@
     },
     "FTL1832": {
       "position": {
-        "lat": 45.552169,
-        "lon": -73.535641
+        "lat": 45.504671,
+        "lon": -73.555879
       },
-      "lastUpdate": "2025-12-21T01:18:34.711Z",
+      "lastUpdate": "2025-12-21T11:12:36.078Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 71
+      "lastEnergyLevel": 381
     },
     "FTK9841": {
       "position": {
@@ -5321,5 +5321,5 @@
       "lastUpdate": "2025-12-21T03:24:54.983Z"
     }
   },
-  "lastUpdate": "2025-12-21 05 h 15 min 20 s"
+  "lastUpdate": "2025-12-21 06 h 12 min 36 s"
 }
