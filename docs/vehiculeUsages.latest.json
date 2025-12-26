@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-12-26T11:14:17.459Z",
+  "timestamp": "2025-12-26T12:31:14.628Z",
   "totalVehicles": 599,
   "vehicles": {
     "FTK9767": {
@@ -301,12 +301,12 @@
     },
     "FTK9603": {
       "position": {
-        "lat": 45.550969,
-        "lon": -73.561045
+        "lat": 45.550945,
+        "lon": -73.561046
       },
-      "lastUpdate": "2025-12-25T23:14:55.124Z",
+      "lastUpdate": "2025-12-26T12:31:14.628Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 104
+      "lastEnergyLevel": 107
     },
     "FTK9122": {
       "position": {
@@ -1525,12 +1525,12 @@
     },
     "FTK9712": {
       "position": {
-        "lat": 45.523839,
-        "lon": -73.61363
+        "lat": 45.491389,
+        "lon": -73.558654
       },
-      "lastUpdate": "2025-12-26T05:17:30.351Z",
+      "lastUpdate": "2025-12-26T12:31:14.628Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 51
+      "lastEnergyLevel": 40
     },
     "FTK9444": {
       "position": {
@@ -2839,12 +2839,12 @@
     },
     "FTK9609": {
       "position": {
-        "lat": 45.549796,
-        "lon": -73.616863
+        "lat": 45.50352,
+        "lon": -73.638732
       },
-      "lastUpdate": "2025-12-26T01:13:57.574Z",
+      "lastUpdate": "2025-12-26T12:31:14.628Z",
       "firstSeen": "2025-09-26T03:41:44.761Z",
-      "lastEnergyLevel": 262
+      "lastEnergyLevel": 248
     },
     "FTK9107": {
       "position": {
@@ -4477,12 +4477,12 @@
     },
     "FTK9489": {
       "position": {
-        "lat": 45.542135,
-        "lon": -73.540608
+        "lat": 45.481422,
+        "lon": -73.613759
       },
-      "lastUpdate": "2025-12-26T03:20:38.276Z",
+      "lastUpdate": "2025-12-26T12:31:14.628Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 301
+      "lastEnergyLevel": 279
     },
     "FTL1340": {
       "position": {
@@ -4970,10 +4970,10 @@
     },
     "FTK6920": {
       "position": {
-        "lat": 45.485518,
-        "lon": -73.636343
+        "lat": 45.485496,
+        "lon": -73.636382
       },
-      "lastUpdate": "2025-12-22T01:16:45.154Z",
+      "lastUpdate": "2025-12-26T12:31:14.628Z",
       "lastEnergyLevel": 99
     },
     "FTL1857": {
@@ -5321,5 +5321,5 @@
       "lastUpdate": "2025-12-25T19:12:07.729Z"
     }
   },
-  "lastUpdate": "2025-12-26 06 h 14 min 17 s"
+  "lastUpdate": "2025-12-26 07 h 31 min 14 s"
 }
