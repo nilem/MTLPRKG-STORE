@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-01T10:19:36.540Z",
+  "timestamp": "2026-02-01T11:17:14.962Z",
   "totalVehicles": 599,
   "vehicles": {
     "FTK9767": {
@@ -355,12 +355,12 @@
     },
     "FTL1994": {
       "position": {
-        "lat": 45.475,
-        "lon": -73.623019
+        "lat": 45.47574,
+        "lon": -73.620903
       },
-      "lastUpdate": "2026-01-31T21:16:05.032Z",
+      "lastUpdate": "2026-02-01T11:17:14.962Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 140
+      "lastEnergyLevel": 120
     },
     "FTK9746": {
       "position": {
@@ -634,12 +634,12 @@
     },
     "FTK9151": {
       "position": {
-        "lat": 45.470451,
-        "lon": -73.571354
+        "lat": 45.504583,
+        "lon": -73.563384
       },
-      "lastUpdate": "2026-02-01T01:51:27.148Z",
+      "lastUpdate": "2026-02-01T11:17:14.962Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 136
+      "lastEnergyLevel": 124
     },
     "FTL1317": {
       "position": {
@@ -2056,12 +2056,12 @@
     },
     "FTN1018": {
       "position": {
-        "lat": 45.510571,
-        "lon": -73.561376
+        "lat": 45.47818,
+        "lon": -73.626398
       },
-      "lastUpdate": "2026-02-01T05:56:21.795Z",
+      "lastUpdate": "2026-02-01T11:17:14.962Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 35
+      "lastEnergyLevel": 25
     },
     "FTL8713": {
       "position": {
@@ -2254,12 +2254,12 @@
     },
     "FTK6995": {
       "position": {
-        "lat": 45.511293,
-        "lon": -73.561212
+        "lat": 45.53655,
+        "lon": -73.604031
       },
-      "lastUpdate": "2026-02-01T05:56:21.795Z",
+      "lastUpdate": "2026-02-01T11:17:14.962Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 284
+      "lastEnergyLevel": 276
     },
     "FTL1214": {
       "position": {
@@ -5321,5 +5321,5 @@
       "lastUpdate": "2026-01-31T22:16:44.046Z"
     }
   },
-  "lastUpdate": "2026-02-01 05 h 19 min 36 s"
+  "lastUpdate": "2026-02-01 06 h 17 min 14 s"
 }
