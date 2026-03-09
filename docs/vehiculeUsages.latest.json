@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-09T07:46:50.556Z",
+  "timestamp": "2026-03-09T08:37:30.525Z",
   "totalVehicles": 599,
   "vehicles": {
     "FTK9767": {
@@ -688,12 +688,12 @@
     },
     "FTL7616": {
       "position": {
-        "lat": 45.570266,
-        "lon": -73.571806
+        "lat": 45.570269,
+        "lon": -73.571824
       },
-      "lastUpdate": "2026-03-05T20:31:51.010Z",
+      "lastUpdate": "2026-03-09T08:37:30.525Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 380
+      "lastEnergyLevel": 323
     },
     "FTL1964": {
       "position": {
@@ -3658,12 +3658,12 @@
     },
     "FTK9154": {
       "position": {
-        "lat": 45.522868,
-        "lon": -73.554203
+        "lat": 45.522891,
+        "lon": -73.55422
       },
-      "lastUpdate": "2026-03-08T21:17:57.563Z",
+      "lastUpdate": "2026-03-09T08:37:30.525Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 118
+      "lastEnergyLevel": 139
     },
     "FTK9145": {
       "position": {
@@ -4144,12 +4144,12 @@
     },
     "FTK9432": {
       "position": {
-        "lat": 45.545668,
-        "lon": -73.535505
+        "lat": 45.555119,
+        "lon": -73.542503
       },
-      "lastUpdate": "2026-03-08T16:21:12.126Z",
+      "lastUpdate": "2026-03-09T08:37:30.525Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 186
+      "lastEnergyLevel": 198
     },
     "FTK9435": {
       "position": {
@@ -4746,8 +4746,8 @@
     },
     "FTL1221": {
       "position": {
-        "lat": 45.543117,
-        "lon": -73.566232
+        "lat": 45.543137,
+        "lon": -73.566196
       },
       "lastUpdate": "2026-03-09T04:11:33.578Z",
       "lastEnergyLevel": 315
@@ -5210,11 +5210,11 @@
     },
     "FTL2038": {
       "position": {
-        "lat": 45.519754,
-        "lon": -73.595594
+        "lat": 45.52051,
+        "lon": -73.612468
       },
-      "lastEnergyLevel": 65,
-      "lastUpdate": "2026-03-09T05:53:29.637Z"
+      "lastEnergyLevel": 63,
+      "lastUpdate": "2026-03-09T08:37:30.525Z"
     },
     "FTK9457": {
       "position": {
@@ -5321,5 +5321,5 @@
       "lastUpdate": "2026-03-08T22:17:48.635Z"
     }
   },
-  "lastUpdate": "2026-03-09 03 h 46 min 50 s"
+  "lastUpdate": "2026-03-09 04 h 37 min 30 s"
 }
