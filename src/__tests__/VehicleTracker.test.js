@@ -38,7 +38,7 @@ describe('VehicleTracker', () => {
             const firstUpdate = tracker.vehicles.get('ABC123').lastUpdate;
             
             // Pour s'assurer que le timestamp change
-            await new Promise(resolve => setTimeout(resolve, 1));
+            await new Promise(resolve => setTimeout(resolve, 5));
 
             // Deuxième traitement avec position différente
             tracker.processVehicleData(movedData);
@@ -46,9 +46,9 @@ describe('VehicleTracker', () => {
 
             expect(updatedVehicle.position).toEqual({ lat: 45.5027, lon: -73.5673 });
             expect(updatedVehicle.lastUpdate).not.toBe(firstUpdate);
-            expect(updatedVehicle.lastUpdateReason).toBe('position');
-            expect(updatedVehicle.lastMoveDistanceMeters).toBeGreaterThanOrEqual(100);
-            expect(updatedVehicle.lastEnergyDelta).toBeNull();
+            expect(updatedVehicle.lastUpdateReason).toMatch(/^position \d+m$/);
+            const movedDistance = Number.parseInt(updatedVehicle.lastUpdateReason.split(' ')[1], 10);
+            expect(movedDistance).toBeGreaterThanOrEqual(100);
         });
 
         test('ne met pas à jour lastUpdate si déplacement < 100 mètres et énergie stable', async () => {
@@ -183,9 +183,7 @@ describe('VehicleTracker', () => {
             expect(tracker.vehicles.get('ABC123').lastUpdate).not.toBe(firstUpdate);
             expect(tracker.vehicles.get('ABC123').lastEnergyLevel).toBe(87);
             expect(tracker.vehicles.get('ABC123').position).toEqual({ lat: 1, lon: 1 }); // Position inchangée
-            expect(tracker.vehicles.get('ABC123').lastUpdateReason).toBe('energy');
-            expect(tracker.vehicles.get('ABC123').lastMoveDistanceMeters).toBeNull();
-            expect(tracker.vehicles.get('ABC123').lastEnergyDelta).toBe(3);
+            expect(tracker.vehicles.get('ABC123').lastUpdateReason).toBe('energie 3%');
         });
 
         test('ne met pas à jour lastUpdate si variation énergie < 2 points', async () => {
@@ -240,9 +238,9 @@ describe('VehicleTracker', () => {
             tracker.processVehicleData(bothChangedData);
             const vehicle = tracker.vehicles.get('ABC123');
 
-            expect(vehicle.lastUpdateReason).toBe('position');
-            expect(vehicle.lastMoveDistanceMeters).toBeGreaterThanOrEqual(100);
-            expect(vehicle.lastEnergyDelta).toBe(5);
+            expect(vehicle.lastUpdateReason).toMatch(/^position \d+m$/);
+            const movedDistance = Number.parseInt(vehicle.lastUpdateReason.split(' ')[1], 10);
+            expect(movedDistance).toBeGreaterThanOrEqual(100);
         });
     });
 

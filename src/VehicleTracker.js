@@ -56,13 +56,13 @@ export class VehicleTracker {
                 
                 if (movementDetails.hasMoved) {
                     existingVehicle.lastUpdate = currentTime;
-                    existingVehicle.lastUpdateReason = movementDetails.movedByPosition ? 'position' : 'energy';
-                    existingVehicle.lastMoveDistanceMeters = movementDetails.movedByPosition
-                        ? movementDetails.distanceMeters
-                        : null;
-                    existingVehicle.lastEnergyDelta = movementDetails.movedByEnergy
-                        ? movementDetails.energyDelta
-                        : null;
+                    if (movementDetails.movedByPosition) {
+                        const roundedDistanceMeters = Math.round(movementDetails.distanceMeters ?? 0);
+                        existingVehicle.lastUpdateReason = `position ${roundedDistanceMeters}m`;
+                    } else {
+                        const roundedEnergyDelta = Math.round(movementDetails.energyDelta ?? 0);
+                        existingVehicle.lastUpdateReason = `energie ${roundedEnergyDelta}%`;
+                    }
                 }
             } else {
                 // Nouveau véhicule
@@ -71,8 +71,6 @@ export class VehicleTracker {
                     lastEnergyLevel: newEnergyLevel,
                     lastUpdate: currentTime,
                     lastUpdateReason: null,
-                    lastMoveDistanceMeters: null,
-                    lastEnergyDelta: null,
                 });
             }
             newPlates.add(plate);
