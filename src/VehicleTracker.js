@@ -1,4 +1,4 @@
-import { hasVehicleMoved, isValidPosition } from './utils/geoUtils.js';
+import { getVehicleMovementDetails, isValidPosition } from './utils/geoUtils.js';
 
 /**
  * Classe pour suivre les mouvements des véhicules
@@ -50,12 +50,19 @@ export class VehicleTracker {
                     lastEnergyLevel: newEnergyLevel 
                 };
                 
-                const hasMoved = hasVehicleMoved(currentState, newState);
+                const movementDetails = getVehicleMovementDetails(currentState, newState);
                 existingVehicle.position = newPosition;
                 existingVehicle.lastEnergyLevel = newEnergyLevel;
                 
-                if (hasMoved) {
+                if (movementDetails.hasMoved) {
                     existingVehicle.lastUpdate = currentTime;
+                    existingVehicle.lastUpdateReason = movementDetails.movedByPosition ? 'position' : 'energy';
+                    existingVehicle.lastMoveDistanceMeters = movementDetails.movedByPosition
+                        ? movementDetails.distanceMeters
+                        : null;
+                    existingVehicle.lastEnergyDelta = movementDetails.movedByEnergy
+                        ? movementDetails.energyDelta
+                        : null;
                 }
             } else {
                 // Nouveau véhicule
@@ -63,6 +70,9 @@ export class VehicleTracker {
                     position: newPosition,
                     lastEnergyLevel: newEnergyLevel,
                     lastUpdate: currentTime,
+                    lastUpdateReason: null,
+                    lastMoveDistanceMeters: null,
+                    lastEnergyDelta: null,
                 });
             }
             newPlates.add(plate);

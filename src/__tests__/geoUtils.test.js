@@ -1,171 +1,136 @@
-import { hasVehicleMoved, isValidPosition } from '../utils/geoUtils.js';
+import {
+    calculateDistanceMeters,
+    getVehicleMovementDetails,
+    hasVehicleMoved,
+    isValidPosition,
+    SIGNIFICANT_ENERGY_DELTA_THRESHOLD,
+    SIGNIFICANT_MOVEMENT_THRESHOLD_METERS,
+} from '../utils/geoUtils.js';
 
 describe('geoUtils', () => {
     describe('hasVehicleMoved', () => {
         const baseState = { 
             position: { lat: 45.5017, lon: -73.5673 }, 
-            lastEnergyLevel: undefined 
+            lastEnergyLevel: 85 
         };
 
-        test('détecte qu\'un véhicule a bougé quand la latitude change', () => {
+        test('détecte un mouvement réel si distance >= 100 mètres', () => {
             const newState = { 
-                position: { lat: 45.5018, lon: -73.5673 }, 
-                lastEnergyLevel: undefined 
+                position: { lat: 45.5027, lon: -73.5673 },
+                lastEnergyLevel: 85,
             };
+
+            const distance = calculateDistanceMeters(baseState.position, newState.position);
+            expect(distance).toBeGreaterThanOrEqual(SIGNIFICANT_MOVEMENT_THRESHOLD_METERS);
+
             const hasMoved = hasVehicleMoved(baseState, newState);
-            
             expect(hasMoved).toBe(true);
         });
 
-        test('détecte qu\'un véhicule a bougé quand la longitude change', () => {
+        test('ignore un déplacement GPS mineur si distance < 100 mètres et énergie < seuil', () => {
             const newState = { 
-                position: { lat: 45.5017, lon: -73.5674 }, 
-                lastEnergyLevel: undefined 
+                position: { lat: 45.5025, lon: -73.5673 },
+                lastEnergyLevel: 86,
             };
-            const hasMoved = hasVehicleMoved(baseState, newState);
-            
-            expect(hasMoved).toBe(true);
-        });
 
-        test('détecte qu\'un véhicule a bougé quand les deux coordonnées changent', () => {
-            const newState = { 
-                position: { lat: 45.5018, lon: -73.5674 }, 
-                lastEnergyLevel: undefined 
-            };
-            const hasMoved = hasVehicleMoved(baseState, newState);
-            
-            expect(hasMoved).toBe(true);
-        });
+            const distance = calculateDistanceMeters(baseState.position, newState.position);
+            expect(distance).toBeLessThan(SIGNIFICANT_MOVEMENT_THRESHOLD_METERS);
 
-        test('détecte qu\'un véhicule n\'a pas bougé si les coordonnées sont identiques', () => {
-            const newState = { 
-                position: { lat: 45.5017, lon: -73.5673 }, 
-                lastEnergyLevel: undefined 
-            };
             const hasMoved = hasVehicleMoved(baseState, newState);
-            
             expect(hasMoved).toBe(false);
         });
 
-        test('retourne true si une des positions est manquante', () => {
-            const stateWithoutPosition = { lastEnergyLevel: undefined };
-            
+        test('détecte un mouvement si delta énergie >= seuil même sans déplacement', () => {
+            const newState = { 
+                position: { lat: 45.5017, lon: -73.5673 }, 
+                lastEnergyLevel: 83,
+            };
+
+            expect(Math.abs(newState.lastEnergyLevel - baseState.lastEnergyLevel))
+                .toBeGreaterThanOrEqual(SIGNIFICANT_ENERGY_DELTA_THRESHOLD);
+
+            const hasMoved = hasVehicleMoved(baseState, newState);
+            expect(hasMoved).toBe(true);
+        });
+
+        test('ignore les changements d\'énergie si delta < seuil', () => {
+            const almostSameEnergyState = {
+                position: { lat: 45.5017, lon: -73.5673 },
+                lastEnergyLevel: 84,
+            };
+
+            expect(hasVehicleMoved(baseState, almostSameEnergyState)).toBe(false);
+        });
+
+        test('ignore le jitter GPS de quelques mètres', () => {
+            const jitteredState = {
+                position: { lat: 45.50173, lon: -73.56727 },
+                lastEnergyLevel: 85,
+            };
+
+            const distance = calculateDistanceMeters(baseState.position, jitteredState.position);
+            expect(distance).toBeLessThan(10);
+            expect(hasVehicleMoved(baseState, jitteredState)).toBe(false);
+        });
+
+        test('retourne true si un état ou une position est manquant', () => {
+            const stateWithoutPosition = { lastEnergyLevel: 85 };
+
             expect(hasVehicleMoved(null, baseState)).toBe(true);
             expect(hasVehicleMoved(baseState, null)).toBe(true);
-            expect(hasVehicleMoved(null, null)).toBe(true);
             expect(hasVehicleMoved(stateWithoutPosition, baseState)).toBe(true);
             expect(hasVehicleMoved(baseState, stateWithoutPosition)).toBe(true);
         });
 
-        test('gère les états undefined', () => {
-            expect(hasVehicleMoved(undefined, baseState)).toBe(true);
-            expect(hasVehicleMoved(baseState, undefined)).toBe(true);
+        test('retourne les détails du trigger basé sur la position', () => {
+            const movedState = {
+                position: { lat: 45.5027, lon: -73.5673 },
+                lastEnergyLevel: 85,
+            };
+
+            const result = getVehicleMovementDetails(baseState, movedState);
+
+            expect(result.hasMoved).toBe(true);
+            expect(result.movedByPosition).toBe(true);
+            expect(result.movedByEnergy).toBe(false);
+            expect(result.distanceMeters).toBeGreaterThanOrEqual(SIGNIFICANT_MOVEMENT_THRESHOLD_METERS);
+            expect(result.energyDelta).toBe(0);
         });
 
-        test('ignore les micro-mouvements (précision limitée à 4 chiffres)', () => {
-            const baseState = { 
-                position: { lat: 45.5017, lon: -73.5673 }, 
-                lastEnergyLevel: undefined 
+        test('retourne les détails du trigger basé sur l\'énergie', () => {
+            const energyTriggerState = {
+                position: { lat: 45.5017, lon: -73.5673 },
+                lastEnergyLevel: 82,
             };
-            
-            // Micro-mouvements qui devraient être ignorés (changements au 5e chiffre et plus)
-            const microMovement1 = { 
-                position: { lat: 45.50170001, lon: -73.5673 }, 
-                lastEnergyLevel: undefined 
-            };
-            const microMovement2 = { 
-                position: { lat: 45.5017, lon: -73.56730009 }, 
-                lastEnergyLevel: undefined 
-            };
-            const microMovement3 = { 
-                position: { lat: 45.501700001, lon: -73.567300009 }, 
-                lastEnergyLevel: undefined 
-            };
-            const microMovement4 = { 
-                position: { lat: 45.50171, lon: -73.5673 }, 
-                lastEnergyLevel: undefined 
-            };
-            
-            expect(hasVehicleMoved(baseState, microMovement1)).toBe(false);
-            expect(hasVehicleMoved(baseState, microMovement2)).toBe(false);
-            expect(hasVehicleMoved(baseState, microMovement3)).toBe(false);
-            expect(hasVehicleMoved(baseState, microMovement4)).toBe(false);
-            
-            // Mouvements significatifs qui devraient être détectés (changements au 4e chiffre)
-            const significantMovement1 = { 
-                position: { lat: 45.5018, lon: -73.5673 }, 
-                lastEnergyLevel: undefined 
-            };
-            const significantMovement2 = { 
-                position: { lat: 45.5017, lon: -73.5674 }, 
-                lastEnergyLevel: undefined 
-            };
-            const minimalSignificantMovement = { 
-                position: { lat: 45.5017, lon: -73.5672 }, 
-                lastEnergyLevel: undefined 
-            };
-            
-            expect(hasVehicleMoved(baseState, significantMovement1)).toBe(true);
-            expect(hasVehicleMoved(baseState, significantMovement2)).toBe(true);
-            expect(hasVehicleMoved(baseState, minimalSignificantMovement)).toBe(true);
+
+            const result = getVehicleMovementDetails(baseState, energyTriggerState);
+
+            expect(result.hasMoved).toBe(true);
+            expect(result.movedByPosition).toBe(false);
+            expect(result.movedByEnergy).toBe(true);
+            expect(result.distanceMeters).toBe(0);
+            expect(result.energyDelta).toBe(3);
+        });
+    });
+
+    describe('calculateDistanceMeters', () => {
+        test('retourne environ 111.2 km pour 1 degré de latitude', () => {
+            const distance = calculateDistanceMeters(
+                { lat: 0, lon: 0 },
+                { lat: 1, lon: 0 }
+            );
+
+            expect(distance).toBeGreaterThan(111000);
+            expect(distance).toBeLessThan(111300);
         });
 
-        test('détecte les changements de niveau d\'énergie même sans mouvement de position', () => {
-            const baseState = { 
-                position: { lat: 45.5017, lon: -73.5673 }, 
-                lastEnergyLevel: 85 
-            };
-            
-            // Même position, mais niveau d'énergie différent
-            const energyChangedState = { 
-                position: { lat: 45.5017, lon: -73.5673 }, 
-                lastEnergyLevel: 83 
-            };
-            
-            expect(hasVehicleMoved(baseState, energyChangedState)).toBe(true);
-        });
+        test('retourne null si une position est invalide', () => {
+            const distance = calculateDistanceMeters(
+                { lat: 0, lon: 0 },
+                { lat: 95, lon: 0 }
+            );
 
-        test('ne détecte pas de mouvement si position et énergie sont identiques', () => {
-            const baseState = { 
-                position: { lat: 45.5017, lon: -73.5673 }, 
-                lastEnergyLevel: 85 
-            };
-            
-            const identicalState = { 
-                position: { lat: 45.5017, lon: -73.5673 }, 
-                lastEnergyLevel: 85 
-            };
-            
-            expect(hasVehicleMoved(baseState, identicalState)).toBe(false);
-        });
-
-        test('détecte les changements quand position ET énergie changent', () => {
-            const baseState = { 
-                position: { lat: 45.5017, lon: -73.5673 }, 
-                lastEnergyLevel: 85 
-            };
-            
-            const bothChangedState = { 
-                position: { lat: 45.5018, lon: -73.5674 }, 
-                lastEnergyLevel: 80 
-            };
-            
-            expect(hasVehicleMoved(baseState, bothChangedState)).toBe(true);
-        });
-
-        test('ignore les changements d\'énergie si l\'un des niveaux est undefined', () => {
-            const baseState = { 
-                position: { lat: 45.5017, lon: -73.5673 }, 
-                lastEnergyLevel: undefined 
-            };
-            
-            const energyDefinedState = { 
-                position: { lat: 45.5017, lon: -73.5673 }, 
-                lastEnergyLevel: 85 
-            };
-            
-            // Position identique, énergie non comparée car l'une est undefined
-            expect(hasVehicleMoved(baseState, energyDefinedState)).toBe(false);
+            expect(distance).toBeNull();
         });
     });
 

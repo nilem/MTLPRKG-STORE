@@ -30,7 +30,7 @@ describe('VehicleTracker', () => {
 
             const movedData = [{
                 description: { plate: 'ABC123' },
-                location: { position: { lat: 45.5018, lon: -73.5673 } } // Coordonnées différentes
+                location: { position: { lat: 45.5027, lon: -73.5673 } } // > 100 mètres
             }];
 
             // Premier traitement
@@ -44,8 +44,36 @@ describe('VehicleTracker', () => {
             tracker.processVehicleData(movedData);
             const updatedVehicle = tracker.vehicles.get('ABC123');
 
-            expect(updatedVehicle.position).toEqual({ lat: 45.5018, lon: -73.5673 });
+            expect(updatedVehicle.position).toEqual({ lat: 45.5027, lon: -73.5673 });
             expect(updatedVehicle.lastUpdate).not.toBe(firstUpdate);
+            expect(updatedVehicle.lastUpdateReason).toBe('position');
+            expect(updatedVehicle.lastMoveDistanceMeters).toBeGreaterThanOrEqual(100);
+            expect(updatedVehicle.lastEnergyDelta).toBeNull();
+        });
+
+        test('ne met pas à jour lastUpdate si déplacement < 100 mètres et énergie stable', async () => {
+            const initialData = [{
+                description: { plate: 'ABC123' },
+                status: { energyLevel: 90 },
+                location: { position: { lat: 45.5017, lon: -73.5673 } }
+            }];
+
+            const shortMoveData = [{
+                description: { plate: 'ABC123' },
+                status: { energyLevel: 90 },
+                location: { position: { lat: 45.5025, lon: -73.5673 } } // < 100 mètres
+            }];
+
+            tracker.processVehicleData(initialData);
+            const firstUpdate = tracker.vehicles.get('ABC123').lastUpdate;
+
+            await new Promise(resolve => setTimeout(resolve, 2));
+
+            tracker.processVehicleData(shortMoveData);
+            const vehicle = tracker.vehicles.get('ABC123');
+
+            expect(vehicle.lastUpdate).toBe(firstUpdate);
+            expect(vehicle.position).toEqual({ lat: 45.5025, lon: -73.5673 });
         });
 
         test('ne met pas à jour si le véhicule n\'a pas bougé', () => {
@@ -127,7 +155,8 @@ describe('VehicleTracker', () => {
         test('met à jour lastUpdate quand le niveau d\'énergie change même sans mouvement', async () => {
             const initialData = [
                 { 
-                    description: { plate: 'ABC123', energyLevel: 90 }, 
+                    description: { plate: 'ABC123' },
+                    status: { energyLevel: 90 },
                     location: { position: { lat: 1, lon: 1 } } 
                 }
             ];
@@ -143,7 +172,8 @@ describe('VehicleTracker', () => {
             // Deuxième traitement - même position mais énergie différente
             const energyChangedData = [
                 { 
-                    description: { plate: 'ABC123', energyLevel: 87 }, 
+                    description: { plate: 'ABC123' },
+                    status: { energyLevel: 87 },
                     location: { position: { lat: 1, lon: 1 } } // Même position
                 }
             ];
@@ -153,6 +183,66 @@ describe('VehicleTracker', () => {
             expect(tracker.vehicles.get('ABC123').lastUpdate).not.toBe(firstUpdate);
             expect(tracker.vehicles.get('ABC123').lastEnergyLevel).toBe(87);
             expect(tracker.vehicles.get('ABC123').position).toEqual({ lat: 1, lon: 1 }); // Position inchangée
+            expect(tracker.vehicles.get('ABC123').lastUpdateReason).toBe('energy');
+            expect(tracker.vehicles.get('ABC123').lastMoveDistanceMeters).toBeNull();
+            expect(tracker.vehicles.get('ABC123').lastEnergyDelta).toBe(3);
+        });
+
+        test('ne met pas à jour lastUpdate si variation énergie < 2 points', async () => {
+            const initialData = [
+                {
+                    description: { plate: 'ABC123' },
+                    status: { energyLevel: 90 },
+                    location: { position: { lat: 1, lon: 1 } }
+                }
+            ];
+
+            tracker.processVehicleData(initialData);
+            const firstUpdate = tracker.vehicles.get('ABC123').lastUpdate;
+
+            await new Promise(resolve => setTimeout(resolve, 2));
+
+            const smallEnergyChangeData = [
+                {
+                    description: { plate: 'ABC123' },
+                    status: { energyLevel: 89 },
+                    location: { position: { lat: 1, lon: 1 } }
+                }
+            ];
+
+            tracker.processVehicleData(smallEnergyChangeData);
+
+            const vehicle = tracker.vehicles.get('ABC123');
+            expect(vehicle.lastUpdate).toBe(firstUpdate);
+            expect(vehicle.lastEnergyLevel).toBe(89);
+        });
+
+        test('priorise le trigger position si position et énergie déclenchent ensemble', async () => {
+            const initialData = [
+                {
+                    description: { plate: 'ABC123' },
+                    status: { energyLevel: 90 },
+                    location: { position: { lat: 45.5017, lon: -73.5673 } }
+                }
+            ];
+
+            tracker.processVehicleData(initialData);
+            await new Promise(resolve => setTimeout(resolve, 2));
+
+            const bothChangedData = [
+                {
+                    description: { plate: 'ABC123' },
+                    status: { energyLevel: 85 },
+                    location: { position: { lat: 45.5029, lon: -73.5673 } }
+                }
+            ];
+
+            tracker.processVehicleData(bothChangedData);
+            const vehicle = tracker.vehicles.get('ABC123');
+
+            expect(vehicle.lastUpdateReason).toBe('position');
+            expect(vehicle.lastMoveDistanceMeters).toBeGreaterThanOrEqual(100);
+            expect(vehicle.lastEnergyDelta).toBe(5);
         });
     });
 
