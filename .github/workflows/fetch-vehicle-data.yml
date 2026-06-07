@@ -2,8 +2,8 @@ name: Fetch Vehicle Data
 
 on:
   schedule:
-    # Exécute deux fois par heure aux minutes 21 et 51 (pour éviter la congestion sur GH)
-    - cron: '21,51 * * * *'
+    # Exécute à la 17e minute de l'heure pour éviter la congestion sur GH
+    - cron: '17 * * * *'
   workflow_dispatch: # Permet l'exécution manuelle
 
 jobs:
