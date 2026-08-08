@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-08T10:15:41.871Z",
+  "timestamp": "2026-08-08T10:55:04.741Z",
   "totalVehicles": 599,
   "vehicles": {
     "FTK9767": {
@@ -2163,8 +2163,8 @@
     },
     "FTL1337": {
       "position": {
-        "lat": 45.517545,
-        "lon": -73.611191
+        "lat": 45.517462,
+        "lon": -73.611225
       },
       "lastUpdate": "2026-08-08T01:48:18.429Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -2551,13 +2551,13 @@
     },
     "FTK9805": {
       "position": {
-        "lat": 45.514331,
-        "lon": -73.552896
+        "lat": 45.537627,
+        "lon": -73.619522
       },
-      "lastUpdate": "2026-08-08T07:12:33.118Z",
+      "lastUpdate": "2026-08-08T10:55:04.741Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 71,
-      "lastUpdateReason": "position 795m"
+      "lastEnergyLevel": 60,
+      "lastUpdateReason": "position 5801m"
     },
     "FTK9443": {
       "position": {
@@ -3258,8 +3258,8 @@
     },
     "FTL1503": {
       "position": {
-        "lat": 45.487845,
-        "lon": -73.565127
+        "lat": 45.487668,
+        "lon": -73.565428
       },
       "lastUpdate": "2026-08-08T01:48:18.429Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -5561,8 +5561,8 @@
     },
     "FTL1830": {
       "position": {
-        "lat": 45.560105,
-        "lon": -73.572071
+        "lat": 45.560119,
+        "lon": -73.571913
       },
       "lastUpdate": "2026-08-08T06:06:57.490Z",
       "lastEnergyLevel": 53,
@@ -5732,12 +5732,12 @@
     },
     "FTL1840": {
       "position": {
-        "lat": 45.569836,
-        "lon": -73.572555
+        "lat": 45.570721,
+        "lon": -73.578583
       },
-      "lastEnergyLevel": 487,
-      "lastUpdate": "2026-08-08T08:03:21.316Z",
-      "lastUpdateReason": "position 5336m"
+      "lastEnergyLevel": 393,
+      "lastUpdate": "2026-08-08T10:55:04.741Z",
+      "lastUpdateReason": "position 479m"
     },
     "FTK6874": {
       "position": {
@@ -5911,5 +5911,5 @@
       "lastUpdateReason": "position 6096m"
     }
   },
-  "lastUpdate": "2026-08-08 06 h 15 min 41 s"
+  "lastUpdate": "2026-08-08 06 h 55 min 04 s"
 }
