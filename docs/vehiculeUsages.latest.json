@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-11T05:19:33.485Z",
+  "timestamp": "2026-08-11T06:11:36.066Z",
   "totalVehicles": 599,
   "vehicles": {
     "FTK9767": {
@@ -253,8 +253,8 @@
     },
     "FTL1477": {
       "position": {
-        "lat": 45.51239,
-        "lon": -73.621797
+        "lat": 45.512499,
+        "lon": -73.621967
       },
       "lastUpdate": "2026-08-09T19:40:39.768Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -1843,8 +1843,8 @@
     },
     "FTK8569": {
       "position": {
-        "lat": 45.483262,
-        "lon": -73.571961
+        "lat": 45.483102,
+        "lon": -73.571885
       },
       "lastUpdate": "2026-08-09T23:51:13.573Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -1853,13 +1853,13 @@
     },
     "FTK9781": {
       "position": {
-        "lat": 45.527746,
-        "lon": -73.578482
+        "lat": 45.476869,
+        "lon": -73.628992
       },
-      "lastUpdate": "2026-08-11T02:24:38.639Z",
+      "lastUpdate": "2026-08-11T06:11:36.066Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 176,
-      "lastUpdateReason": "position 2752m"
+      "lastEnergyLevel": 152,
+      "lastUpdateReason": "position 6892m"
     },
     "FTL2028": {
       "position": {
@@ -2293,13 +2293,13 @@
     },
     "FTL8713": {
       "position": {
-        "lat": 45.538602,
-        "lon": -73.618409
+        "lat": 45.538638,
+        "lon": -73.618462
       },
-      "lastUpdate": "2026-08-11T02:24:38.639Z",
+      "lastUpdate": "2026-08-11T06:11:36.066Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 205,
-      "lastUpdateReason": "position 119m"
+      "lastEnergyLevel": 193,
+      "lastUpdateReason": "energie 12%"
     },
     "FTL1798": {
       "position": {
@@ -2333,8 +2333,8 @@
     },
     "FTL1488": {
       "position": {
-        "lat": 45.471651,
-        "lon": -73.593692
+        "lat": 45.471702,
+        "lon": -73.593647
       },
       "lastUpdate": "2026-08-11T02:24:38.639Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -2860,8 +2860,8 @@
     },
     "FTL1444": {
       "position": {
-        "lat": 45.496979,
-        "lon": -73.644703
+        "lat": 45.496813,
+        "lon": -73.644686
       },
       "lastUpdate": "2026-08-09T18:03:00.300Z",
       "firstSeen": "2025-09-26T03:41:44.761Z",
@@ -2999,8 +2999,8 @@
     },
     "FTL1349": {
       "position": {
-        "lat": 45.534815,
-        "lon": -73.567493
+        "lat": 45.53481,
+        "lon": -73.567304
       },
       "lastUpdate": "2026-08-10T22:03:29.555Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -3358,13 +3358,13 @@
     },
     "FTK7007": {
       "position": {
-        "lat": 45.51905,
-        "lon": -73.576882
+        "lat": 45.536048,
+        "lon": -73.587008
       },
-      "lastUpdate": "2026-08-10T22:54:08.619Z",
+      "lastUpdate": "2026-08-11T06:11:36.066Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
       "lastEnergyLevel": 487,
-      "lastUpdateReason": "position 1766m"
+      "lastUpdateReason": "position 2048m"
     },
     "FTL1215": {
       "position": {
@@ -4125,13 +4125,13 @@
     },
     "FTN2232": {
       "position": {
-        "lat": 45.488228,
-        "lon": -73.640433
+        "lat": 45.490817,
+        "lon": -73.636962
       },
-      "lastUpdate": "2026-08-09T02:22:58.236Z",
+      "lastUpdate": "2026-08-11T06:11:36.066Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 495,
-      "lastUpdateReason": "position 411m"
+      "lastEnergyLevel": 484,
+      "lastUpdateReason": "position 395m"
     },
     "FTL5073": {
       "position": {
@@ -4265,8 +4265,8 @@
     },
     "FTL9890": {
       "position": {
-        "lat": 45.485543,
-        "lon": -73.636294
+        "lat": 45.485551,
+        "lon": -73.63629
       },
       "lastUpdate": "2026-08-11T02:24:38.639Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -5911,5 +5911,5 @@
       "lastUpdateReason": "position 7536m"
     }
   },
-  "lastUpdate": "2026-08-11 01 h 19 min 33 s"
+  "lastUpdate": "2026-08-11 02 h 11 min 36 s"
 }
