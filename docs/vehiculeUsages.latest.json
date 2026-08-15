@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-15T10:02:22.595Z",
+  "timestamp": "2026-08-15T10:36:03.402Z",
   "totalVehicles": 599,
   "vehicles": {
     "FTK9767": {
@@ -4255,13 +4255,13 @@
     },
     "FTK9149": {
       "position": {
-        "lat": 45.537722,
-        "lon": -73.565708
+        "lat": 45.478607,
+        "lon": -73.577278
       },
-      "lastUpdate": "2026-08-14T23:28:27.171Z",
+      "lastUpdate": "2026-08-15T10:36:03.402Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 163,
-      "lastUpdateReason": "energie 114%"
+      "lastEnergyLevel": 152,
+      "lastUpdateReason": "position 6635m"
     },
     "FTL9890": {
       "position": {
@@ -5911,5 +5911,5 @@
       "lastUpdateReason": "position 426m"
     }
   },
-  "lastUpdate": "2026-08-15 06 h 02 min 22 s"
+  "lastUpdate": "2026-08-15 06 h 36 min 03 s"
 }
