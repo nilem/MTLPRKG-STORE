@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-15T05:45:12.161Z",
+  "timestamp": "2026-08-15T06:12:49.886Z",
   "totalVehicles": 599,
   "vehicles": {
     "FTK9767": {
@@ -663,8 +663,8 @@
     },
     "FTL1359": {
       "position": {
-        "lat": 45.553557,
-        "lon": -73.610641
+        "lat": 45.55348,
+        "lon": -73.610426
       },
       "lastUpdate": "2026-08-14T22:57:00.419Z",
       "firstSeen": "2025-09-26T01:19:32.473Z",
@@ -1143,13 +1143,13 @@
     },
     "FTL1417": {
       "position": {
-        "lat": 45.511268,
-        "lon": -73.573447
+        "lat": 45.545496,
+        "lon": -73.540034
       },
-      "lastUpdate": "2026-08-15T02:34:16.040Z",
+      "lastUpdate": "2026-08-15T06:12:49.886Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 175,
-      "lastUpdateReason": "position 2469m"
+      "lastEnergyLevel": 151,
+      "lastUpdateReason": "position 4611m"
     },
     "FTL8695": {
       "position": {
@@ -4275,13 +4275,13 @@
     },
     "FTK9618": {
       "position": {
-        "lat": 45.492945,
-        "lon": -73.583337
+        "lat": 45.529165,
+        "lon": -73.563011
       },
-      "lastUpdate": "2026-08-15T02:34:16.040Z",
+      "lastUpdate": "2026-08-15T06:12:49.886Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 386,
-      "lastUpdateReason": "position 388m"
+      "lastEnergyLevel": 374,
+      "lastUpdateReason": "position 4328m"
     },
     "FTK9660": {
       "position": {
@@ -5606,12 +5606,12 @@
     },
     "FTL1518": {
       "position": {
-        "lat": 45.500076,
-        "lon": -73.55725
+        "lat": 45.462476,
+        "lon": -73.592494
       },
-      "lastUpdate": "2026-08-15T01:21:52.126Z",
-      "lastEnergyLevel": 278,
-      "lastUpdateReason": "position 6375m"
+      "lastUpdate": "2026-08-15T06:12:49.886Z",
+      "lastEnergyLevel": 266,
+      "lastUpdateReason": "position 5003m"
     },
     "FTK9110": {
       "position": {
@@ -5911,5 +5911,5 @@
       "lastUpdateReason": "position 426m"
     }
   },
-  "lastUpdate": "2026-08-15 01 h 45 min 12 s"
+  "lastUpdate": "2026-08-15 02 h 12 min 49 s"
 }
