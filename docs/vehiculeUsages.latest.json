@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-16T09:02:37.105Z",
+  "timestamp": "2026-08-16T09:37:39.481Z",
   "totalVehicles": 599,
   "vehicles": {
     "FTK9767": {
@@ -24,13 +24,13 @@
     },
     "FTK9829": {
       "position": {
-        "lat": 45.538639,
-        "lon": -73.554334
+        "lat": 45.538661,
+        "lon": -73.554296
       },
-      "lastUpdate": "2026-08-15T02:34:16.040Z",
+      "lastUpdate": "2026-08-16T09:37:39.481Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 208,
-      "lastUpdateReason": "position 3871m"
+      "lastEnergyLevel": 113,
+      "lastUpdateReason": "energie 95%"
     },
     "FTL1999": {
       "position": {
@@ -283,13 +283,13 @@
     },
     "FTL1315": {
       "position": {
-        "lat": 45.504285,
-        "lon": -73.617802
+        "lat": 45.500842,
+        "lon": -73.619919
       },
-      "lastUpdate": "2026-08-16T06:53:13.582Z",
+      "lastUpdate": "2026-08-16T09:37:39.481Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 286,
-      "lastUpdateReason": "position 3035m"
+      "lastEnergyLevel": 236,
+      "lastUpdateReason": "position 417m"
     },
     "FTL2042": {
       "position": {
@@ -2023,8 +2023,8 @@
     },
     "FTK9455": {
       "position": {
-        "lat": 45.510497,
-        "lon": -73.561438
+        "lat": 45.510485,
+        "lon": -73.56152
       },
       "lastUpdate": "2026-08-16T07:33:09.839Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -2363,13 +2363,13 @@
     },
     "FTL2001": {
       "position": {
-        "lat": 45.488695,
-        "lon": -73.570635
+        "lat": 45.534233,
+        "lon": -73.621005
       },
-      "lastUpdate": "2026-08-14T12:27:40.156Z",
+      "lastUpdate": "2026-08-16T09:37:39.481Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 223,
-      "lastUpdateReason": "position 6530m"
+      "lastEnergyLevel": 127,
+      "lastUpdateReason": "position 6407m"
     },
     "FTL5074": {
       "position": {
@@ -5911,5 +5911,5 @@
       "lastUpdateReason": "position 355m"
     }
   },
-  "lastUpdate": "2026-08-16 05 h 02 min 37 s"
+  "lastUpdate": "2026-08-16 05 h 37 min 39 s"
 }
