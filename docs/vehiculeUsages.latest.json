@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-17T05:36:50.792Z",
+  "timestamp": "2026-08-17T06:04:15.108Z",
   "totalVehicles": 599,
   "vehicles": {
     "FTK9767": {
@@ -763,13 +763,13 @@
     },
     "FTL7616": {
       "position": {
-        "lat": 45.524008,
-        "lon": -73.614426
+        "lat": 45.536739,
+        "lon": -73.572241
       },
-      "lastUpdate": "2026-08-16T22:00:06.931Z",
+      "lastUpdate": "2026-08-17T06:04:15.108Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 447,
-      "lastUpdateReason": "position 553m"
+      "lastEnergyLevel": 419,
+      "lastUpdateReason": "position 3578m"
     },
     "FTL1964": {
       "position": {
@@ -2233,13 +2233,13 @@
     },
     "FTK9799": {
       "position": {
-        "lat": 45.498437,
+        "lat": 45.498453,
         "lon": -73.557343
       },
-      "lastUpdate": "2026-08-16T13:37:46.953Z",
+      "lastUpdate": "2026-08-17T06:04:15.108Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 362,
-      "lastUpdateReason": "position 743m"
+      "lastEnergyLevel": 265,
+      "lastUpdateReason": "energie 97%"
     },
     "FTK7068": {
       "position": {
@@ -4415,13 +4415,13 @@
     },
     "FTL1465": {
       "position": {
-        "lat": 45.500825,
-        "lon": -73.578733
+        "lat": 45.452686,
+        "lon": -73.57303
       },
-      "lastUpdate": "2026-08-17T03:02:15.612Z",
+      "lastUpdate": "2026-08-17T06:04:15.108Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 356,
-      "lastUpdateReason": "position 3848m"
+      "lastEnergyLevel": 360,
+      "lastUpdateReason": "position 5371m"
     },
     "FTK9412": {
       "position": {
@@ -5055,13 +5055,13 @@
     },
     "FTL8699": {
       "position": {
-        "lat": 45.529604,
-        "lon": -73.635979
+        "lat": 45.533291,
+        "lon": -73.646164
       },
-      "lastUpdate": "2026-08-15T21:33:50.091Z",
+      "lastUpdate": "2026-08-17T06:04:15.108Z",
       "firstSeen": "2025-09-26T01:13:21.833Z",
-      "lastEnergyLevel": 130,
-      "lastUpdateReason": "position 1885m"
+      "lastEnergyLevel": 62,
+      "lastUpdateReason": "position 893m"
     },
     "FTL9085": {
       "position": {
@@ -5911,5 +5911,5 @@
       "lastUpdateReason": "position 355m"
     }
   },
-  "lastUpdate": "2026-08-17 01 h 36 min 50 s"
+  "lastUpdate": "2026-08-17 02 h 04 min 15 s"
 }
