@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-22T11:22:42.714Z",
+  "timestamp": "2026-08-22T11:46:57.767Z",
   "totalVehicles": 599,
   "vehicles": {
     "FTK9767": {
@@ -1053,8 +1053,8 @@
     },
     "FTL1435": {
       "position": {
-        "lat": 45.525919,
-        "lon": -73.603456
+        "lat": 45.525898,
+        "lon": -73.603606
       },
       "lastUpdate": "2026-08-21T21:51:13.383Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -1333,13 +1333,13 @@
     },
     "FTK9111": {
       "position": {
-        "lat": 45.489487,
-        "lon": -73.56497
+        "lat": 45.445634,
+        "lon": -73.594161
       },
-      "lastUpdate": "2026-08-22T03:24:13.296Z",
+      "lastUpdate": "2026-08-22T11:46:57.767Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 105,
-      "lastUpdateReason": "position 4504m"
+      "lastEnergyLevel": 95,
+      "lastUpdateReason": "position 5381m"
     },
     "FTN1016": {
       "position": {
@@ -1733,7 +1733,7 @@
     },
     "FTK9796": {
       "position": {
-        "lat": 45.552517,
+        "lat": 45.552534,
         "lon": -73.557362
       },
       "lastUpdate": "2026-08-21T19:35:33.819Z",
@@ -2353,13 +2353,13 @@
     },
     "FTK6943": {
       "position": {
-        "lat": 45.518259,
-        "lon": -73.579353
+        "lat": 45.530826,
+        "lon": -73.561182
       },
-      "lastUpdate": "2026-08-22T02:35:49.789Z",
+      "lastUpdate": "2026-08-22T11:46:57.767Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
       "lastEnergyLevel": 487,
-      "lastUpdateReason": "position 6400m"
+      "lastUpdateReason": "position 1989m"
     },
     "FTL2001": {
       "position": {
@@ -2521,8 +2521,8 @@
     },
     "FTK9728": {
       "position": {
-        "lat": 45.526609,
-        "lon": -73.608118
+        "lat": 45.526654,
+        "lon": -73.607973
       },
       "lastUpdate": "2026-08-20T21:48:24.661Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -5507,8 +5507,8 @@
     },
     "FTK7077": {
       "position": {
-        "lat": 45.543792,
-        "lon": -73.622151
+        "lat": 45.543851,
+        "lon": -73.622123
       },
       "lastUpdate": "2026-08-21T22:53:17.277Z",
       "lastEnergyLevel": 450,
@@ -5911,5 +5911,5 @@
       "lastUpdateReason": "position 2768m"
     }
   },
-  "lastUpdate": "2026-08-22 07 h 22 min 42 s"
+  "lastUpdate": "2026-08-22 07 h 46 min 57 s"
 }
