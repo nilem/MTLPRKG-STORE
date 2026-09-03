@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-09-03T20:08:47.638Z",
+  "timestamp": "2026-09-03T22:38:24.842Z",
   "totalVehicles": 599,
   "vehicles": {
     "FTK9767": {
       "position": {
-        "lat": 45.499029,
-        "lon": -73.572649
+        "lat": 45.499173,
+        "lon": -73.572571
       },
       "lastUpdate": "2026-09-03T05:02:01.886Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -14,13 +14,13 @@
     },
     "FTK6888": {
       "position": {
-        "lat": 45.544912,
-        "lon": -73.593216
+        "lat": 45.542058,
+        "lon": -73.60869
       },
-      "lastUpdate": "2026-09-03T20:08:47.638Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 129,
-      "lastUpdateReason": "position 1592m"
+      "lastEnergyLevel": 125,
+      "lastUpdateReason": "position 1246m"
     },
     "FTK9829": {
       "position": {
@@ -123,13 +123,13 @@
     },
     "FTL1537": {
       "position": {
-        "lat": 45.516292,
-        "lon": -73.573537
+        "lat": 45.493497,
+        "lon": -73.571078
       },
-      "lastUpdate": "2026-09-01T16:36:03.766Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 357,
-      "lastUpdateReason": "position 2951m"
+      "lastEnergyLevel": 412,
+      "lastUpdateReason": "position 2542m"
     },
     "FTL1341": {
       "position": {
@@ -233,8 +233,8 @@
     },
     "FTL1872": {
       "position": {
-        "lat": 45.554286,
-        "lon": -73.607849
+        "lat": 45.554418,
+        "lon": -73.607875
       },
       "lastUpdate": "2026-09-01T19:35:10.266Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -263,13 +263,13 @@
     },
     "FTL2065": {
       "position": {
-        "lat": 45.564769,
-        "lon": -73.58178
+        "lat": 45.566962,
+        "lon": -73.579682
       },
-      "lastUpdate": "2026-09-03T20:08:47.638Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 416,
-      "lastUpdateReason": "position 294m"
+      "lastEnergyLevel": 404,
+      "lastUpdateReason": "position 293m"
     },
     "FTK6842": {
       "position": {
@@ -303,18 +303,18 @@
     },
     "FTL9083": {
       "position": {
-        "lat": 45.507671,
-        "lon": -73.625251
+        "lat": 45.508577,
+        "lon": -73.625
       },
-      "lastUpdate": "2026-09-03T05:02:01.886Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 38,
-      "lastUpdateReason": "position 1282m"
+      "lastEnergyLevel": 248,
+      "lastUpdateReason": "position 103m"
     },
     "FTL1256": {
       "position": {
-        "lat": 45.487834,
-        "lon": -73.622735
+        "lat": 45.487934,
+        "lon": -73.622845
       },
       "lastUpdate": "2026-09-01T19:35:10.266Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -353,13 +353,13 @@
     },
     "FTK9467": {
       "position": {
-        "lat": 45.545372,
-        "lon": -73.596222
+        "lat": 45.544826,
+        "lon": -73.593035
       },
-      "lastUpdate": "2026-09-02T17:19:40.941Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 186,
-      "lastUpdateReason": "position 4007m"
+      "lastEnergyLevel": 146,
+      "lastUpdateReason": "position 256m"
     },
     "FTL1374": {
       "position": {
@@ -373,13 +373,13 @@
     },
     "FTL9887": {
       "position": {
-        "lat": 45.527127,
-        "lon": -73.588285
+        "lat": 45.5244,
+        "lon": -73.587195
       },
-      "lastUpdate": "2026-09-02T17:19:40.941Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 62,
-      "lastUpdateReason": "position 1460m"
+      "lastEnergyLevel": 44,
+      "lastUpdateReason": "position 315m"
     },
     "FTL1997": {
       "position": {
@@ -413,13 +413,13 @@
     },
     "FTL1241": {
       "position": {
-        "lat": 45.537916,
-        "lon": -73.639853
+        "lat": 45.543671,
+        "lon": -73.638229
       },
-      "lastUpdate": "2026-09-03T05:02:01.886Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 315,
-      "lastUpdateReason": "position 1464m"
+      "lastEnergyLevel": 313,
+      "lastUpdateReason": "position 652m"
     },
     "FTL8705": {
       "position": {
@@ -473,13 +473,13 @@
     },
     "FTL1867": {
       "position": {
-        "lat": 45.530433,
-        "lon": -73.575769
+        "lat": 45.527822,
+        "lon": -73.549201
       },
-      "lastUpdate": "2026-09-03T17:40:27.295Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 64,
-      "lastUpdateReason": "position 1822m"
+      "lastEnergyLevel": 56,
+      "lastUpdateReason": "position 2090m"
     },
     "FTL1443": {
       "position": {
@@ -493,33 +493,33 @@
     },
     "FTK8565": {
       "position": {
-        "lat": 45.498947,
-        "lon": -73.625787
+        "lat": 45.50886,
+        "lon": -73.615178
       },
-      "lastUpdate": "2026-09-03T17:40:27.295Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 492,
-      "lastUpdateReason": "position 8076m"
+      "lastEnergyLevel": 487,
+      "lastUpdateReason": "position 1378m"
     },
     "FTN1017": {
       "position": {
-        "lat": 45.49287,
-        "lon": -73.583253
+        "lat": 45.45245,
+        "lon": -73.569273
       },
-      "lastUpdate": "2026-09-03T17:40:27.295Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 509,
-      "lastUpdateReason": "position 224m"
+      "lastEnergyLevel": 501,
+      "lastUpdateReason": "position 4625m"
     },
     "FTL1198": {
       "position": {
-        "lat": 45.526056,
-        "lon": -73.595489
+        "lat": 45.536232,
+        "lon": -73.60132
       },
-      "lastUpdate": "2026-09-02T04:30:38.130Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 79,
-      "lastUpdateReason": "position 1561m"
+      "lastEnergyLevel": 67,
+      "lastUpdateReason": "position 1219m"
     },
     "FTK7084": {
       "position": {
@@ -573,13 +573,13 @@
     },
     "FTK6910": {
       "position": {
-        "lat": 45.53762,
-        "lon": -73.561701
+        "lat": 45.531021,
+        "lon": -73.550904
       },
-      "lastUpdate": "2026-09-03T00:32:31.643Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 429,
-      "lastUpdateReason": "position 4077m"
+      "lastEnergyLevel": 487,
+      "lastUpdateReason": "position 1116m"
     },
     "FTK9598": {
       "position": {
@@ -603,13 +603,13 @@
     },
     "FTK6993": {
       "position": {
-        "lat": 45.479748,
-        "lon": -73.625533
+        "lat": 45.519563,
+        "lon": -73.582173
       },
-      "lastUpdate": "2026-09-01T16:36:03.766Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 462,
-      "lastUpdateReason": "position 887m"
+      "lastEnergyLevel": 372,
+      "lastUpdateReason": "position 5570m"
     },
     "FTK8571": {
       "position": {
@@ -623,8 +623,8 @@
     },
     "FTK9836": {
       "position": {
-        "lat": 45.539053,
-        "lon": -73.601921
+        "lat": 45.538997,
+        "lon": -73.601878
       },
       "lastUpdate": "2026-09-02T17:19:40.941Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -693,13 +693,13 @@
     },
     "FTK7055": {
       "position": {
-        "lat": 45.500144,
-        "lon": -73.579606
+        "lat": 45.471471,
+        "lon": -73.625517
       },
-      "lastUpdate": "2026-09-03T13:55:44.504Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 236,
-      "lastUpdateReason": "position 2160m"
+      "lastEnergyLevel": 203,
+      "lastUpdateReason": "position 4793m"
     },
     "FTK9151": {
       "position": {
@@ -713,8 +713,8 @@
     },
     "FTL1317": {
       "position": {
-        "lat": 45.517743,
-        "lon": -73.58483
+        "lat": 45.517641,
+        "lon": -73.584806
       },
       "lastUpdate": "2026-09-03T20:08:47.638Z",
       "firstSeen": "2025-09-26T01:13:21.833Z",
@@ -733,13 +733,13 @@
     },
     "FTL1390": {
       "position": {
-        "lat": 45.528627,
-        "lon": -73.59672
+        "lat": 45.545703,
+        "lon": -73.612662
       },
-      "lastUpdate": "2026-09-03T13:55:44.504Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 296,
-      "lastUpdateReason": "position 3504m"
+      "lastEnergyLevel": 291,
+      "lastUpdateReason": "position 2269m"
     },
     "FTK9806": {
       "position": {
@@ -753,8 +753,8 @@
     },
     "FTL1279": {
       "position": {
-        "lat": 45.534045,
-        "lon": -73.58511
+        "lat": 45.534084,
+        "lon": -73.5851
       },
       "lastUpdate": "2026-09-02T04:30:38.130Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -843,23 +843,23 @@
     },
     "FTN1005": {
       "position": {
-        "lat": 45.541183,
-        "lon": -73.593955
+        "lat": 45.541047,
+        "lon": -73.593347
       },
-      "lastUpdate": "2026-09-03T05:02:01.886Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 42,
-      "lastUpdateReason": "position 471m"
+      "lastEnergyLevel": 164,
+      "lastUpdateReason": "energie 122%"
     },
     "FTL1330": {
       "position": {
-        "lat": 45.557915,
-        "lon": -73.547831
+        "lat": 45.554705,
+        "lon": -73.534583
       },
-      "lastUpdate": "2026-09-03T17:40:27.295Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 462,
-      "lastUpdateReason": "position 9057m"
+      "lastEnergyLevel": 433,
+      "lastUpdateReason": "position 1091m"
     },
     "FTL1504": {
       "position": {
@@ -993,13 +993,13 @@
     },
     "FTH2667": {
       "position": {
-        "lat": 45.527607,
-        "lon": -73.586065
+        "lat": 45.523898,
+        "lon": -73.588507
       },
-      "lastUpdate": "2026-09-01T16:36:03.766Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 171,
-      "lastUpdateReason": "position 8266m"
+      "lastEnergyLevel": 137,
+      "lastUpdateReason": "position 454m"
     },
     "FTK9718": {
       "position": {
@@ -1013,13 +1013,13 @@
     },
     "FTL1431": {
       "position": {
-        "lat": 45.547765,
-        "lon": -73.584729
+        "lat": 45.549915,
+        "lon": -73.577401
       },
-      "lastUpdate": "2026-09-03T20:08:47.638Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 450,
-      "lastUpdateReason": "position 671m"
+      "lastEnergyLevel": 456,
+      "lastUpdateReason": "position 619m"
     },
     "FTL1943": {
       "position": {
@@ -1093,13 +1093,13 @@
     },
     "FTL1990": {
       "position": {
-        "lat": 45.46733,
-        "lon": -73.571729
+        "lat": 45.474127,
+        "lon": -73.623073
       },
-      "lastUpdate": "2026-09-03T13:55:44.504Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 165,
-      "lastUpdateReason": "position 6214m"
+      "lastEnergyLevel": 153,
+      "lastUpdateReason": "position 4074m"
     },
     "FTL1469": {
       "position": {
@@ -1113,13 +1113,13 @@
     },
     "FTL1231": {
       "position": {
-        "lat": 45.526327,
-        "lon": -73.591579
+        "lat": 45.539008,
+        "lon": -73.622106
       },
-      "lastUpdate": "2026-09-03T13:55:44.504Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T01:13:21.833Z",
-      "lastEnergyLevel": 157,
-      "lastUpdateReason": "position 8061m"
+      "lastEnergyLevel": 146,
+      "lastUpdateReason": "position 2764m"
     },
     "FTK9764": {
       "position": {
@@ -1173,8 +1173,8 @@
     },
     "FTL9891": {
       "position": {
-        "lat": 45.530396,
-        "lon": -73.591223
+        "lat": 45.530401,
+        "lon": -73.591293
       },
       "lastUpdate": "2026-09-03T05:02:01.886Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -1193,8 +1193,8 @@
     },
     "FTK9639": {
       "position": {
-        "lat": 45.562601,
-        "lon": -73.58837
+        "lat": 45.562607,
+        "lon": -73.588362
       },
       "lastUpdate": "2026-09-03T05:02:01.886Z",
       "firstSeen": "2025-09-26T03:41:44.761Z",
@@ -1253,8 +1253,8 @@
     },
     "FTL1002": {
       "position": {
-        "lat": 45.552833,
-        "lon": -73.622095
+        "lat": 45.55286,
+        "lon": -73.622117
       },
       "lastUpdate": "2026-09-02T19:53:52.288Z",
       "firstSeen": "2025-09-26T03:41:44.761Z",
@@ -1293,8 +1293,8 @@
     },
     "FTL1960": {
       "position": {
-        "lat": 45.546824,
-        "lon": -73.634391
+        "lat": 45.546851,
+        "lon": -73.634348
       },
       "lastUpdate": "2026-09-02T17:19:40.941Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -1323,13 +1323,13 @@
     },
     "FTN1008": {
       "position": {
-        "lat": 45.544646,
-        "lon": -73.596147
+        "lat": 45.535045,
+        "lon": -73.581502
       },
-      "lastUpdate": "2026-08-30T00:37:30.689Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T01:13:21.833Z",
-      "lastEnergyLevel": 52,
-      "lastUpdateReason": "position 3790m"
+      "lastEnergyLevel": 468,
+      "lastUpdateReason": "position 1562m"
     },
     "FTK9111": {
       "position": {
@@ -1363,13 +1363,13 @@
     },
     "FTL8743": {
       "position": {
-        "lat": 45.479347,
-        "lon": -73.627357
+        "lat": 45.484955,
+        "lon": -73.630018
       },
-      "lastUpdate": "2026-09-02T19:53:52.288Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 359,
-      "lastUpdateReason": "position 361m"
+      "lastEnergyLevel": 347,
+      "lastUpdateReason": "position 657m"
     },
     "FTK9633": {
       "position": {
@@ -1383,13 +1383,13 @@
     },
     "FTL2104": {
       "position": {
-        "lat": 45.521599,
-        "lon": -73.554523
+        "lat": 45.542182,
+        "lon": -73.61832
       },
-      "lastUpdate": "2026-09-03T20:08:47.638Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 263,
-      "lastUpdateReason": "position 456m"
+      "lastEnergyLevel": 240,
+      "lastUpdateReason": "position 5471m"
     },
     "FTK7047": {
       "position": {
@@ -1413,8 +1413,8 @@
     },
     "FTL1252": {
       "position": {
-        "lat": 45.526751,
-        "lon": -73.583977
+        "lat": 45.526778,
+        "lon": -73.584067
       },
       "lastUpdate": "2026-09-03T05:02:01.886Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -1483,13 +1483,13 @@
     },
     "FTK6878": {
       "position": {
-        "lat": 45.562584,
-        "lon": -73.585514
+        "lat": 45.554116,
+        "lon": -73.594766
       },
-      "lastUpdate": "2026-09-03T17:40:27.295Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 156,
-      "lastUpdateReason": "position 118m"
+      "lastEnergyLevel": 158,
+      "lastUpdateReason": "position 1186m"
     },
     "FTK7079": {
       "position": {
@@ -1553,13 +1553,13 @@
     },
     "FTL1253": {
       "position": {
-        "lat": 45.501248,
-        "lon": -73.558119
+        "lat": 45.460044,
+        "lon": -73.565407
       },
-      "lastUpdate": "2026-09-03T20:08:47.638Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 286,
-      "lastUpdateReason": "position 5353m"
+      "lastEnergyLevel": 273,
+      "lastUpdateReason": "position 4617m"
     },
     "FTL1521": {
       "position": {
@@ -1653,8 +1653,8 @@
     },
     "FTK9696": {
       "position": {
-        "lat": 45.531689,
-        "lon": -73.590556
+        "lat": 45.53172,
+        "lon": -73.59053
       },
       "lastUpdate": "2026-09-03T17:40:27.295Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -1663,13 +1663,13 @@
     },
     "FTK9153": {
       "position": {
-        "lat": 45.499774,
-        "lon": -73.62391
+        "lat": 45.530715,
+        "lon": -73.582695
       },
-      "lastUpdate": "2026-09-03T13:55:44.504Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 477,
-      "lastUpdateReason": "position 4702m"
+      "lastEnergyLevel": 462,
+      "lastUpdateReason": "position 4706m"
     },
     "FTK8567": {
       "position": {
@@ -1723,18 +1723,18 @@
     },
     "FTK9833": {
       "position": {
-        "lat": 45.518081,
-        "lon": -73.57338
+        "lat": 45.520012,
+        "lon": -73.584536
       },
-      "lastUpdate": "2026-09-03T20:08:47.638Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 235,
-      "lastUpdateReason": "position 4070m"
+      "lastEnergyLevel": 234,
+      "lastUpdateReason": "position 895m"
     },
     "FTK9796": {
       "position": {
-        "lat": 45.518802,
-        "lon": -73.56616
+        "lat": 45.51875,
+        "lon": -73.566053
       },
       "lastUpdate": "2026-09-03T20:08:47.638Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -1753,8 +1753,8 @@
     },
     "FTK6991": {
       "position": {
-        "lat": 45.533072,
-        "lon": -73.621929
+        "lat": 45.533128,
+        "lon": -73.621821
       },
       "lastUpdate": "2026-09-02T13:35:47.415Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -1783,13 +1783,13 @@
     },
     "FTL1358": {
       "position": {
-        "lat": 45.526796,
-        "lon": -73.608297
+        "lat": 45.526309,
+        "lon": -73.58196
       },
-      "lastUpdate": "2026-09-03T00:32:31.643Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 434,
-      "lastUpdateReason": "position 3490m"
+      "lastEnergyLevel": 443,
+      "lastUpdateReason": "position 2052m"
     },
     "FTL1324": {
       "position": {
@@ -1833,13 +1833,13 @@
     },
     "FTK9787": {
       "position": {
-        "lat": 45.501514,
-        "lon": -73.558606
+        "lat": 45.553993,
+        "lon": -73.596267
       },
-      "lastUpdate": "2026-09-03T20:08:47.638Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 163,
-      "lastUpdateReason": "position 7886m"
+      "lastEnergyLevel": 153,
+      "lastUpdateReason": "position 6531m"
     },
     "FTK8569": {
       "position": {
@@ -1863,8 +1863,8 @@
     },
     "FTL2028": {
       "position": {
-        "lat": 45.564211,
-        "lon": -73.597636
+        "lat": 45.564252,
+        "lon": -73.597672
       },
       "lastUpdate": "2026-09-02T00:07:31.051Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -2003,13 +2003,13 @@
     },
     "FTK9423": {
       "position": {
-        "lat": 45.529432,
-        "lon": -73.605023
+        "lat": 45.531241,
+        "lon": -73.603761
       },
-      "lastUpdate": "2026-09-03T13:55:44.504Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 90,
-      "lastUpdateReason": "energie 7%"
+      "lastEnergyLevel": 88,
+      "lastUpdateReason": "position 224m"
     },
     "FTK7061": {
       "position": {
@@ -2033,13 +2033,13 @@
     },
     "FTL1820": {
       "position": {
-        "lat": 45.540731,
-        "lon": -73.549113
+        "lat": 45.531375,
+        "lon": -73.577659
       },
-      "lastUpdate": "2026-09-03T05:02:01.886Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 296,
-      "lastUpdateReason": "position 2860m"
+      "lastEnergyLevel": 272,
+      "lastUpdateReason": "position 2455m"
     },
     "FTK9667": {
       "position": {
@@ -2053,23 +2053,23 @@
     },
     "FTL1865": {
       "position": {
-        "lat": 45.522307,
-        "lon": -73.592963
+        "lat": 45.542756,
+        "lon": -73.570187
       },
-      "lastUpdate": "2026-09-03T13:55:44.504Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 330,
-      "lastUpdateReason": "position 266m"
+      "lastEnergyLevel": 335,
+      "lastUpdateReason": "position 2884m"
     },
     "FTL1276": {
       "position": {
-        "lat": 45.504696,
-        "lon": -73.566313
+        "lat": 45.545795,
+        "lon": -73.55527
       },
-      "lastUpdate": "2026-09-03T13:55:44.504Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 450,
-      "lastUpdateReason": "position 3662m"
+      "lastEnergyLevel": 402,
+      "lastUpdateReason": "position 4650m"
     },
     "FTL1877": {
       "position": {
@@ -2183,13 +2183,13 @@
     },
     "FTL1265": {
       "position": {
-        "lat": 45.504228,
-        "lon": -73.617743
+        "lat": 45.523803,
+        "lon": -73.603725
       },
-      "lastUpdate": "2026-09-03T17:40:27.295Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 83,
-      "lastUpdateReason": "position 2879m"
+      "lastEnergyLevel": 77,
+      "lastUpdateReason": "position 2435m"
     },
     "FTL1333": {
       "position": {
@@ -2213,13 +2213,13 @@
     },
     "FTK8562": {
       "position": {
-        "lat": 45.520317,
-        "lon": -73.588432
+        "lat": 45.540679,
+        "lon": -73.610423
       },
-      "lastUpdate": "2026-09-03T20:08:47.638Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 30,
-      "lastUpdateReason": "position 3308m"
+      "lastEnergyLevel": 215,
+      "lastUpdateReason": "position 2839m"
     },
     "FTK9706": {
       "position": {
@@ -2233,13 +2233,13 @@
     },
     "FTK9799": {
       "position": {
-        "lat": 45.521106,
-        "lon": -73.574935
+        "lat": 45.520914,
+        "lon": -73.574503
       },
-      "lastUpdate": "2026-09-03T17:40:27.295Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 249,
-      "lastUpdateReason": "position 3193m"
+      "lastEnergyLevel": 236,
+      "lastUpdateReason": "energie 13%"
     },
     "FTK7068": {
       "position": {
@@ -2253,13 +2253,13 @@
     },
     "FTL1280": {
       "position": {
-        "lat": 45.526109,
-        "lon": -73.593951
+        "lat": 45.523538,
+        "lon": -73.574268
       },
-      "lastUpdate": "2026-09-02T22:26:50.390Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 303,
-      "lastUpdateReason": "position 2489m"
+      "lastEnergyLevel": 315,
+      "lastUpdateReason": "position 1560m"
     },
     "FTL2045": {
       "position": {
@@ -2273,13 +2273,13 @@
     },
     "FTK9780": {
       "position": {
-        "lat": 45.549477,
-        "lon": -73.543457
+        "lat": 45.549304,
+        "lon": -73.561141
       },
-      "lastUpdate": "2026-09-03T00:32:31.643Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 228,
-      "lastUpdateReason": "position 1168m"
+      "lastEnergyLevel": 215,
+      "lastUpdateReason": "position 1377m"
     },
     "FTN1018": {
       "position": {
@@ -2373,13 +2373,13 @@
     },
     "FTL5074": {
       "position": {
-        "lat": 45.515092,
-        "lon": -73.572314
+        "lat": 45.516582,
+        "lon": -73.598262
       },
-      "lastUpdate": "2026-09-03T17:40:27.295Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 139,
-      "lastUpdateReason": "position 3685m"
+      "lastEnergyLevel": 127,
+      "lastUpdateReason": "position 2029m"
     },
     "FTL1269": {
       "position": {
@@ -2393,13 +2393,13 @@
     },
     "FTK9835": {
       "position": {
-        "lat": 45.521734,
-        "lon": -73.558683
+        "lat": 45.51671,
+        "lon": -73.58423
       },
-      "lastUpdate": "2026-09-03T20:08:47.638Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 94,
-      "lastUpdateReason": "position 986m"
+      "lastEnergyLevel": 88,
+      "lastUpdateReason": "position 2067m"
     },
     "FTK6885": {
       "position": {
@@ -2452,13 +2452,13 @@
     },
     "FTK9777": {
       "position": {
-        "lat": 45.51986,
-        "lon": -73.589629
+        "lat": 45.497481,
+        "lon": -73.634741
       },
-      "lastUpdate": "2026-09-03T17:40:27.295Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 124,
-      "lastUpdateReason": "position 430m"
+      "lastEnergyLevel": 115,
+      "lastUpdateReason": "position 4307m"
     },
     "FTL9102": {
       "position": {
@@ -2621,23 +2621,23 @@
     },
     "FTL1803": {
       "position": {
-        "lat": 45.538133,
-        "lon": -73.63909
+        "lat": 45.556765,
+        "lon": -73.545585
       },
-      "lastUpdate": "2026-09-01T01:26:06.824Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 78,
-      "lastUpdateReason": "position 697m"
+      "lastEnergyLevel": 145,
+      "lastUpdateReason": "position 7570m"
     },
     "FTL4312": {
       "position": {
-        "lat": 45.538663,
-        "lon": -73.623216
+        "lat": 45.516918,
+        "lon": -73.581029
       },
-      "lastUpdate": "2026-09-03T17:40:27.295Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 30,
-      "lastUpdateReason": "position 165m"
+      "lastEnergyLevel": 460,
+      "lastUpdateReason": "position 4080m"
     },
     "FTL9065": {
       "position": {
@@ -2660,13 +2660,13 @@
     },
     "FTK9798": {
       "position": {
-        "lat": 45.562786,
-        "lon": -73.586249
+        "lat": 45.5625,
+        "lon": -73.585043
       },
-      "lastUpdate": "2026-09-03T20:08:47.638Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 200,
-      "lastUpdateReason": "position 252m"
+      "lastEnergyLevel": 192,
+      "lastUpdateReason": "energie 8%"
     },
     "FTK9662": {
       "position": {
@@ -2690,13 +2690,13 @@
     },
     "FTL8733": {
       "position": {
-        "lat": 45.542117,
-        "lon": -73.598061
+        "lat": 45.469451,
+        "lon": -73.61264
       },
-      "lastUpdate": "2026-09-01T22:00:16.525Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 76,
-      "lastUpdateReason": "position 2143m"
+      "lastEnergyLevel": 57,
+      "lastUpdateReason": "position 8160m"
     },
     "FTK9748": {
       "position": {
@@ -2720,53 +2720,53 @@
     },
     "FTL1528": {
       "position": {
-        "lat": 45.528287,
-        "lon": -73.620331
+        "lat": 45.505381,
+        "lon": -73.63199
       },
-      "lastUpdate": "2026-09-03T17:40:27.295Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 386,
-      "lastUpdateReason": "position 122m"
+      "lastEnergyLevel": 376,
+      "lastUpdateReason": "position 2704m"
     },
     "FTK9137": {
       "position": {
-        "lat": 45.549392,
-        "lon": -73.595885
+        "lat": 45.536923,
+        "lon": -73.603619
       },
-      "lastUpdate": "2026-09-03T17:40:27.295Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 303,
-      "lastUpdateReason": "energie 33%"
+      "lastEnergyLevel": 295,
+      "lastUpdateReason": "position 1512m"
     },
     "FTL5068": {
       "position": {
-        "lat": 45.480514,
-        "lon": -73.584676
+        "lat": 45.540553,
+        "lon": -73.61727
       },
-      "lastUpdate": "2026-09-03T20:08:47.638Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T01:13:21.833Z",
-      "lastEnergyLevel": 191,
-      "lastUpdateReason": "position 5488m"
+      "lastEnergyLevel": 167,
+      "lastUpdateReason": "position 7143m"
     },
     "FTK9800": {
       "position": {
-        "lat": 45.452745,
-        "lon": -73.573097
+        "lat": 45.458532,
+        "lon": -73.569326
       },
-      "lastUpdate": "2026-09-03T05:02:01.886Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 346,
-      "lastUpdateReason": "position 203m"
+      "lastEnergyLevel": 356,
+      "lastUpdateReason": "position 708m"
     },
     "FTK6852": {
       "position": {
-        "lat": 45.552197,
-        "lon": -73.574775
+        "lat": 45.564083,
+        "lon": -73.593961
       },
-      "lastUpdate": "2026-09-03T13:55:44.504Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 113,
-      "lastUpdateReason": "energie 14%"
+      "lastEnergyLevel": 103,
+      "lastUpdateReason": "position 1995m"
     },
     "FTL8689": {
       "position": {
@@ -2780,13 +2780,13 @@
     },
     "FTK7069": {
       "position": {
-        "lat": 45.454926,
-        "lon": -73.5804
+        "lat": 45.538897,
+        "lon": -73.541488
       },
-      "lastUpdate": "2026-09-01T01:26:06.824Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 407,
-      "lastUpdateReason": "position 714m"
+      "lastEnergyLevel": 487,
+      "lastUpdateReason": "position 9817m"
     },
     "FTL1381": {
       "position": {
@@ -2800,13 +2800,13 @@
     },
     "FTK7080": {
       "position": {
-        "lat": 45.52785,
-        "lon": -73.587632
+        "lat": 45.462849,
+        "lon": -73.588669
       },
-      "lastUpdate": "2026-09-01T19:35:10.266Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 269,
-      "lastUpdateReason": "position 1975m"
+      "lastEnergyLevel": 260,
+      "lastUpdateReason": "position 7228m"
     },
     "FTN1010": {
       "position": {
@@ -2820,8 +2820,8 @@
     },
     "FTL2027": {
       "position": {
-        "lat": 45.552843,
-        "lon": -73.553372
+        "lat": 45.552645,
+        "lon": -73.553391
       },
       "lastUpdate": "2026-09-02T00:07:31.051Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -2840,13 +2840,13 @@
     },
     "FTK7054": {
       "position": {
-        "lat": 45.538572,
-        "lon": -73.542043
+        "lat": 45.527061,
+        "lon": -73.605342
       },
-      "lastUpdate": "2026-09-03T00:32:31.643Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 236,
-      "lastUpdateReason": "position 1104m"
+      "lastEnergyLevel": 228,
+      "lastUpdateReason": "position 5094m"
     },
     "FTL1232": {
       "position": {
@@ -2910,13 +2910,13 @@
     },
     "FTL9056": {
       "position": {
-        "lat": 45.474894,
-        "lon": -73.5918
+        "lat": 45.474631,
+        "lon": -73.591002
       },
-      "lastUpdate": "2026-09-01T16:36:03.766Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 275,
-      "lastUpdateReason": "position 9277m"
+      "lastEnergyLevel": 259,
+      "lastUpdateReason": "energie 16%"
     },
     "FTL5069": {
       "position": {
@@ -2929,13 +2929,13 @@
     },
     "FTL1210": {
       "position": {
-        "lat": 45.522594,
-        "lon": -73.61566
+        "lat": 45.549364,
+        "lon": -73.542853
       },
-      "lastUpdate": "2026-09-03T00:32:31.643Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
       "lastEnergyLevel": 276,
-      "lastUpdateReason": "position 168m"
+      "lastUpdateReason": "position 6405m"
     },
     "FTL1264": {
       "position": {
@@ -2959,13 +2959,13 @@
     },
     "FTK6879": {
       "position": {
-        "lat": 45.467997,
-        "lon": -73.580516
+        "lat": 45.463027,
+        "lon": -73.565067
       },
-      "lastUpdate": "2026-09-01T16:36:03.766Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 115,
-      "lastUpdateReason": "position 7727m"
+      "lastEnergyLevel": 112,
+      "lastUpdateReason": "position 1325m"
     },
     "FTL1186": {
       "position": {
@@ -3218,18 +3218,18 @@
     },
     "FTL2016": {
       "position": {
-        "lat": 45.533412,
-        "lon": -73.55769
+        "lat": 45.543784,
+        "lon": -73.594608
       },
-      "lastUpdate": "2026-09-03T05:02:01.886Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T01:16:36.758Z",
-      "lastEnergyLevel": 343,
-      "lastUpdateReason": "position 2397m"
+      "lastEnergyLevel": 352,
+      "lastUpdateReason": "position 3098m"
     },
     "FTL8725": {
       "position": {
-        "lat": 45.542151,
-        "lon": -73.615279
+        "lat": 45.542083,
+        "lon": -73.615244
       },
       "lastUpdate": "2026-09-03T05:02:01.886Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -3258,8 +3258,8 @@
     },
     "FTL1503": {
       "position": {
-        "lat": 45.525537,
-        "lon": -73.624187
+        "lat": 45.52549,
+        "lon": -73.624233
       },
       "lastUpdate": "2026-09-03T17:40:27.295Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -3368,13 +3368,13 @@
     },
     "FTL1215": {
       "position": {
-        "lat": 45.518502,
-        "lon": -73.572869
+        "lat": 45.468419,
+        "lon": -73.635528
       },
-      "lastUpdate": "2026-09-03T17:40:27.295Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 270,
-      "lastUpdateReason": "position 7459m"
+      "lastEnergyLevel": 245,
+      "lastUpdateReason": "position 7407m"
     },
     "FTK6890": {
       "position": {
@@ -3458,13 +3458,13 @@
     },
     "FTK9778": {
       "position": {
-        "lat": 45.560667,
-        "lon": -73.578326
+        "lat": 45.549599,
+        "lon": -73.584662
       },
-      "lastUpdate": "2026-09-03T05:02:01.886Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 254,
-      "lastUpdateReason": "position 125m"
+      "lastEnergyLevel": 231,
+      "lastUpdateReason": "position 1326m"
     },
     "FTL1440": {
       "position": {
@@ -3508,23 +3508,23 @@
     },
     "FTL8683": {
       "position": {
-        "lat": 45.525528,
-        "lon": -73.599941
+        "lat": 45.528158,
+        "lon": -73.619622
       },
-      "lastUpdate": "2026-09-03T13:55:44.504Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 174,
-      "lastUpdateReason": "position 2753m"
+      "lastEnergyLevel": 170,
+      "lastUpdateReason": "position 1561m"
     },
     "FTL1192": {
       "position": {
-        "lat": 45.535842,
-        "lon": -73.593004
+        "lat": 45.548689,
+        "lon": -73.584442
       },
-      "lastUpdate": "2026-09-03T20:08:47.638Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 135,
-      "lastUpdateReason": "position 3574m"
+      "lastEnergyLevel": 132,
+      "lastUpdateReason": "position 1576m"
     },
     "FTL8692": {
       "position": {
@@ -3577,13 +3577,13 @@
     },
     "FTL1286": {
       "position": {
-        "lat": 45.523763,
-        "lon": -73.559222
+        "lat": 45.453197,
+        "lon": -73.575826
       },
-      "lastUpdate": "2026-09-03T05:02:01.886Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 412,
-      "lastUpdateReason": "position 3602m"
+      "lastEnergyLevel": 387,
+      "lastUpdateReason": "position 7953m"
     },
     "FTL1871": {
       "position": {
@@ -3607,13 +3607,13 @@
     },
     "FTL1474": {
       "position": {
-        "lat": 45.551064,
-        "lon": -73.559244
+        "lat": 45.549367,
+        "lon": -73.56464
       },
-      "lastUpdate": "2026-09-03T17:40:27.295Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 224,
-      "lastUpdateReason": "position 136m"
+      "lastEnergyLevel": 165,
+      "lastUpdateReason": "position 461m"
     },
     "FTK7065": {
       "position": {
@@ -3657,13 +3657,13 @@
     },
     "FTK9437": {
       "position": {
-        "lat": 45.478661,
-        "lon": -73.559042
+        "lat": 45.513213,
+        "lon": -73.637163
       },
-      "lastUpdate": "2026-09-03T13:55:44.504Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 101,
-      "lastUpdateReason": "position 819m"
+      "lastEnergyLevel": 47,
+      "lastUpdateReason": "position 7200m"
     },
     "FTK9431": {
       "position": {
@@ -3677,13 +3677,13 @@
     },
     "FTL1235": {
       "position": {
-        "lat": 45.523536,
-        "lon": -73.574245
+        "lat": 45.52364,
+        "lon": -73.574451
       },
-      "lastUpdate": "2026-09-03T17:40:27.295Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 324,
-      "lastUpdateReason": "energie 39%"
+      "lastEnergyLevel": 303,
+      "lastUpdateReason": "energie 21%"
     },
     "FTL1966": {
       "position": {
@@ -3727,13 +3727,13 @@
     },
     "FTK9109": {
       "position": {
-        "lat": 45.541968,
-        "lon": -73.564917
+        "lat": 45.543487,
+        "lon": -73.591921
       },
-      "lastUpdate": "2026-09-03T13:55:44.504Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 301,
-      "lastUpdateReason": "position 2106m"
+      "lastEnergyLevel": 292,
+      "lastUpdateReason": "position 2110m"
     },
     "FTL9894": {
       "position": {
@@ -3816,28 +3816,28 @@
     },
     "FTK9140": {
       "position": {
-        "lat": 45.55346,
-        "lon": -73.595043
+        "lat": 45.522212,
+        "lon": -73.586201
       },
-      "lastUpdate": "2026-09-02T00:07:31.051Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T01:19:32.473Z",
-      "lastEnergyLevel": 341,
-      "lastUpdateReason": "position 1665m"
+      "lastEnergyLevel": 317,
+      "lastUpdateReason": "position 3542m"
     },
     "FTL1844": {
       "position": {
-        "lat": 45.47369,
-        "lon": -73.569703
+        "lat": 45.471438,
+        "lon": -73.567345
       },
-      "lastUpdate": "2026-09-02T04:30:38.130Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 427,
-      "lastUpdateReason": "position 937m"
+      "lastEnergyLevel": 487,
+      "lastUpdateReason": "position 311m"
     },
     "FTL1377": {
       "position": {
-        "lat": 45.530692,
-        "lon": -73.581106
+        "lat": 45.530721,
+        "lon": -73.581114
       },
       "lastUpdate": "2026-09-03T00:32:31.643Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -3846,8 +3846,8 @@
     },
     "FTL1532": {
       "position": {
-        "lat": 45.518843,
-        "lon": -73.566205
+        "lat": 45.518885,
+        "lon": -73.566125
       },
       "lastUpdate": "2026-09-03T00:32:31.643Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -3906,8 +3906,8 @@
     },
     "FTL1811": {
       "position": {
-        "lat": 45.54348,
-        "lon": -73.615974
+        "lat": 45.543442,
+        "lon": -73.615856
       },
       "lastUpdate": "2026-09-02T17:19:40.941Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -3926,8 +3926,8 @@
     },
     "FTL2043": {
       "position": {
-        "lat": 45.546462,
-        "lon": -73.633132
+        "lat": 45.546443,
+        "lon": -73.633196
       },
       "lastUpdate": "2026-09-02T00:07:31.051Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -3966,8 +3966,8 @@
     },
     "FTL1487": {
       "position": {
-        "lat": 45.518007,
-        "lon": -73.577478
+        "lat": 45.51799,
+        "lon": -73.577522
       },
       "lastUpdate": "2026-09-03T00:32:31.643Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -4085,13 +4085,13 @@
     },
     "FTK8558": {
       "position": {
-        "lat": 45.53501,
-        "lon": -73.581594
+        "lat": 45.572079,
+        "lon": -73.579854
       },
-      "lastUpdate": "2026-09-03T00:32:31.643Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 525,
-      "lastUpdateReason": "position 219m"
+      "lastEnergyLevel": 503,
+      "lastUpdateReason": "position 4124m"
     },
     "FTL1271": {
       "position": {
@@ -4115,13 +4115,13 @@
     },
     "FTK8557": {
       "position": {
-        "lat": 45.543947,
-        "lon": -73.600728
+        "lat": 45.528725,
+        "lon": -73.584356
       },
-      "lastUpdate": "2026-09-02T22:26:50.390Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 145,
-      "lastUpdateReason": "position 3394m"
+      "lastEnergyLevel": 137,
+      "lastUpdateReason": "position 2119m"
     },
     "FTN2232": {
       "position": {
@@ -4145,13 +4145,13 @@
     },
     "FTL9070": {
       "position": {
-        "lat": 45.534383,
-        "lon": -73.551158
+        "lat": 45.558213,
+        "lon": -73.534817
       },
-      "lastUpdate": "2026-09-03T20:08:47.638Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 280,
-      "lastUpdateReason": "position 4194m"
+      "lastEnergyLevel": 273,
+      "lastUpdateReason": "position 2939m"
     },
     "FTK9699": {
       "position": {
@@ -4245,28 +4245,28 @@
     },
     "FTL1364": {
       "position": {
-        "lat": 45.478773,
-        "lon": -73.579257
+        "lat": 45.481828,
+        "lon": -73.56496
       },
-      "lastUpdate": "2026-09-03T17:40:27.295Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 38,
-      "lastUpdateReason": "energie 35%"
+      "lastEnergyLevel": 130,
+      "lastUpdateReason": "position 1165m"
     },
     "FTK9149": {
       "position": {
-        "lat": 45.525552,
-        "lon": -73.600044
+        "lat": 45.549818,
+        "lon": -73.609474
       },
-      "lastUpdate": "2026-09-03T17:40:27.295Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 123,
-      "lastUpdateReason": "position 2636m"
+      "lastEnergyLevel": 116,
+      "lastUpdateReason": "position 2796m"
     },
     "FTL9890": {
       "position": {
-        "lat": 45.485804,
-        "lon": -73.618397
+        "lat": 45.485855,
+        "lon": -73.618377
       },
       "lastUpdate": "2026-09-02T00:07:31.051Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -4285,13 +4285,13 @@
     },
     "FTK9660": {
       "position": {
-        "lat": 45.539634,
-        "lon": -73.598782
+        "lat": 45.536662,
+        "lon": -73.586391
       },
-      "lastUpdate": "2026-09-03T20:08:47.638Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 68,
-      "lastUpdateReason": "position 1169m"
+      "lastEnergyLevel": 69,
+      "lastUpdateReason": "position 1020m"
     },
     "FTL9883": {
       "position": {
@@ -4305,13 +4305,13 @@
     },
     "FTL1208": {
       "position": {
-        "lat": 45.462202,
-        "lon": -73.595592
+        "lat": 45.461096,
+        "lon": -73.596311
       },
-      "lastUpdate": "2026-09-03T17:40:27.295Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 131,
-      "lastUpdateReason": "position 11155m"
+      "lastEnergyLevel": 127,
+      "lastUpdateReason": "position 135m"
     },
     "FTK9801": {
       "position": {
@@ -4325,8 +4325,8 @@
     },
     "FTL9896": {
       "position": {
-        "lat": 45.541816,
-        "lon": -73.603823
+        "lat": 45.541724,
+        "lon": -73.603696
       },
       "lastUpdate": "2026-09-02T22:26:50.390Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -4375,23 +4375,23 @@
     },
     "FTL1832": {
       "position": {
-        "lat": 45.500463,
-        "lon": -73.580262
+        "lat": 45.501288,
+        "lon": -73.579751
       },
-      "lastUpdate": "2026-09-03T05:02:01.886Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 105,
-      "lastUpdateReason": "position 3018m"
+      "lastEnergyLevel": 108,
+      "lastUpdateReason": "position 100m"
     },
     "FTK9841": {
       "position": {
-        "lat": 45.458735,
-        "lon": -73.574275
+        "lat": 45.457445,
+        "lon": -73.572505
       },
-      "lastUpdate": "2026-09-03T13:55:44.504Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 320,
-      "lastUpdateReason": "position 766m"
+      "lastEnergyLevel": 296,
+      "lastUpdateReason": "position 199m"
     },
     "FTL9895": {
       "position": {
@@ -4455,13 +4455,13 @@
     },
     "FTL1190": {
       "position": {
-        "lat": 45.558264,
-        "lon": -73.591479
+        "lat": 45.553879,
+        "lon": -73.600491
       },
-      "lastUpdate": "2026-09-03T20:08:47.638Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 233,
-      "lastUpdateReason": "position 1000m"
+      "lastEnergyLevel": 229,
+      "lastUpdateReason": "position 854m"
     },
     "FTK9686": {
       "position": {
@@ -4525,13 +4525,13 @@
     },
     "FTL1483": {
       "position": {
-        "lat": 45.520915,
-        "lon": -73.583826
+        "lat": 45.520842,
+        "lon": -73.583727
       },
-      "lastUpdate": "2026-09-02T22:26:50.390Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 243,
-      "lastUpdateReason": "position 4756m"
+      "lastEnergyLevel": 206,
+      "lastUpdateReason": "energie 37%"
     },
     "FTL1368": {
       "position": {
@@ -4565,13 +4565,13 @@
     },
     "FTK9816": {
       "position": {
-        "lat": 45.539093,
-        "lon": -73.584537
+        "lat": 45.51076,
+        "lon": -73.561197
       },
-      "lastUpdate": "2026-09-03T13:55:44.504Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 495,
-      "lastUpdateReason": "position 2145m"
+      "lastEnergyLevel": 483,
+      "lastUpdateReason": "position 3638m"
     },
     "FTL9900": {
       "position": {
@@ -4615,18 +4615,18 @@
     },
     "FTK9620": {
       "position": {
-        "lat": 45.570501,
-        "lon": -73.579688
+        "lat": 45.527617,
+        "lon": -73.594474
       },
-      "lastUpdate": "2026-09-03T00:32:31.643Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 305,
-      "lastUpdateReason": "position 126m"
+      "lastEnergyLevel": 296,
+      "lastUpdateReason": "position 4906m"
     },
     "FTK7033": {
       "position": {
-        "lat": 45.529066,
-        "lon": -73.586619
+        "lat": 45.529153,
+        "lon": -73.586543
       },
       "lastUpdate": "2026-09-02T17:19:40.941Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -4675,8 +4675,8 @@
     },
     "FTL1524": {
       "position": {
-        "lat": 45.529372,
-        "lon": -73.597073
+        "lat": 45.529313,
+        "lon": -73.597077
       },
       "lastUpdate": "2026-09-02T13:35:47.415Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -4715,13 +4715,13 @@
     },
     "FTK6935": {
       "position": {
-        "lat": 45.516444,
-        "lon": -73.576749
+        "lat": 45.542802,
+        "lon": -73.599589
       },
-      "lastUpdate": "2026-09-02T04:30:38.130Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 251,
-      "lastUpdateReason": "position 5661m"
+      "lastEnergyLevel": 213,
+      "lastUpdateReason": "position 3429m"
     },
     "FTK9546": {
       "position": {
@@ -4735,18 +4735,18 @@
     },
     "FTL7618": {
       "position": {
-        "lat": 45.544587,
-        "lon": -73.596162
+        "lat": 45.557312,
+        "lon": -73.585506
       },
-      "lastUpdate": "2026-09-03T17:40:27.295Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 365,
-      "lastUpdateReason": "position 8236m"
+      "lastEnergyLevel": 342,
+      "lastUpdateReason": "position 1640m"
     },
     "FTL1905": {
       "position": {
-        "lat": 45.554811,
-        "lon": -73.531367
+        "lat": 45.554829,
+        "lon": -73.53137
       },
       "lastUpdate": "2026-09-03T05:02:01.886Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -4775,23 +4775,23 @@
     },
     "FTL2010": {
       "position": {
-        "lat": 45.519426,
-        "lon": -73.576165
+        "lat": 45.520368,
+        "lon": -73.576831
       },
-      "lastUpdate": "2026-09-03T13:55:44.504Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 238,
-      "lastUpdateReason": "position 4430m"
+      "lastEnergyLevel": 234,
+      "lastUpdateReason": "position 117m"
     },
     "FTL2114": {
       "position": {
-        "lat": 45.541424,
-        "lon": -73.538449
+        "lat": 45.524188,
+        "lon": -73.563984
       },
-      "lastUpdate": "2026-09-03T20:08:47.638Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 335,
-      "lastUpdateReason": "position 5058m"
+      "lastEnergyLevel": 324,
+      "lastUpdateReason": "position 2762m"
     },
     "FTL1530": {
       "position": {
@@ -4835,13 +4835,13 @@
     },
     "FTL1818": {
       "position": {
-        "lat": 45.504552,
-        "lon": -73.56936
+        "lat": 45.545238,
+        "lon": -73.569003
       },
-      "lastUpdate": "2026-09-03T13:55:44.504Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T01:13:21.833Z",
-      "lastEnergyLevel": 397,
-      "lastUpdateReason": "position 4222m"
+      "lastEnergyLevel": 398,
+      "lastUpdateReason": "position 4524m"
     },
     "FTL5078": {
       "position": {
@@ -4865,33 +4865,33 @@
     },
     "FTL2063": {
       "position": {
-        "lat": 45.513072,
-        "lon": -73.559401
+        "lat": 45.519883,
+        "lon": -73.594093
       },
-      "lastUpdate": "2026-09-03T20:08:47.638Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 347,
-      "lastUpdateReason": "position 4109m"
+      "lastEnergyLevel": 331,
+      "lastUpdateReason": "position 2807m"
     },
     "FTL2118": {
       "position": {
-        "lat": 45.543889,
-        "lon": -73.551453
+        "lat": 45.539851,
+        "lon": -73.549103
       },
-      "lastUpdate": "2026-09-02T22:26:50.390Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 137,
-      "lastUpdateReason": "position 697m"
+      "lastEnergyLevel": 118,
+      "lastUpdateReason": "position 485m"
     },
     "FTL1489": {
       "position": {
-        "lat": 45.466627,
-        "lon": -73.567765
+        "lat": 45.549312,
+        "lon": -73.533311
       },
-      "lastUpdate": "2026-09-03T13:55:44.504Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 128,
-      "lastUpdateReason": "position 9396m"
+      "lastEnergyLevel": 115,
+      "lastUpdateReason": "position 9578m"
     },
     "FTL2019": {
       "position": {
@@ -4915,13 +4915,13 @@
     },
     "FTL1796": {
       "position": {
-        "lat": 45.523286,
-        "lon": -73.562944
+        "lat": 45.545804,
+        "lon": -73.617156
       },
-      "lastUpdate": "2026-09-03T05:02:01.886Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 487,
-      "lastUpdateReason": "position 465m"
+      "lastEnergyLevel": 407,
+      "lastUpdateReason": "position 4909m"
     },
     "FTL1860": {
       "position": {
@@ -4935,13 +4935,13 @@
     },
     "FTL1438": {
       "position": {
-        "lat": 45.555453,
-        "lon": -73.531032
+        "lat": 45.551336,
+        "lon": -73.538858
       },
-      "lastUpdate": "2026-09-01T01:26:06.824Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 61,
-      "lastUpdateReason": "position 141m"
+      "lastEnergyLevel": 49,
+      "lastUpdateReason": "position 762m"
     },
     "FTL1949": {
       "position": {
@@ -5005,8 +5005,8 @@
     },
     "FTL8739": {
       "position": {
-        "lat": 45.504081,
-        "lon": -73.619502
+        "lat": 45.504115,
+        "lon": -73.619552
       },
       "lastUpdate": "2026-09-03T20:08:47.638Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -5035,8 +5035,8 @@
     },
     "FTK7045": {
       "position": {
-        "lat": 45.554849,
-        "lon": -73.569405
+        "lat": 45.554867,
+        "lon": -73.569416
       },
       "lastUpdate": "2026-09-03T20:08:47.638Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -5065,18 +5065,18 @@
     },
     "FTL9085": {
       "position": {
-        "lat": 45.535922,
-        "lon": -73.563422
+        "lat": 45.538827,
+        "lon": -73.607748
       },
-      "lastUpdate": "2026-09-02T19:53:52.288Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 111,
-      "lastUpdateReason": "energie 44%"
+      "lastEnergyLevel": 93,
+      "lastUpdateReason": "position 3467m"
     },
     "FTL1334": {
       "position": {
-        "lat": 45.554612,
-        "lon": -73.590293
+        "lat": 45.554581,
+        "lon": -73.590204
       },
       "lastUpdate": "2026-09-03T20:08:47.638Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
@@ -5105,13 +5105,13 @@
     },
     "FTK9701": {
       "position": {
-        "lat": 45.547346,
-        "lon": -73.561992
+        "lat": 45.54755,
+        "lon": -73.58378
       },
-      "lastUpdate": "2026-09-03T20:08:47.638Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 553,
-      "lastUpdateReason": "position 1735m"
+      "lastEnergyLevel": 546,
+      "lastUpdateReason": "position 1697m"
     },
     "FTK9417": {
       "position": {
@@ -5135,13 +5135,13 @@
     },
     "FTL1883": {
       "position": {
-        "lat": 45.535676,
-        "lon": -73.610982
+        "lat": 45.5574,
+        "lon": -73.532672
       },
-      "lastUpdate": "2026-09-03T13:55:44.504Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 353,
-      "lastUpdateReason": "position 2024m"
+      "lastEnergyLevel": 357,
+      "lastUpdateReason": "position 6559m"
     },
     "FTK9142": {
       "position": {
@@ -5155,13 +5155,13 @@
     },
     "FTK8560": {
       "position": {
-        "lat": 45.474567,
-        "lon": -73.591058
+        "lat": 45.488143,
+        "lon": -73.573074
       },
-      "lastUpdate": "2026-09-03T13:55:44.504Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T00:41:43.491Z",
-      "lastEnergyLevel": 406,
-      "lastUpdateReason": "position 9037m"
+      "lastEnergyLevel": 352,
+      "lastUpdateReason": "position 2060m"
     },
     "FTL1886": {
       "position": {
@@ -5225,13 +5225,13 @@
     },
     "FTL8747": {
       "position": {
-        "lat": 45.454708,
-        "lon": -73.571068
+        "lat": 45.454593,
+        "lon": -73.570357
       },
-      "lastUpdate": "2026-09-02T22:26:50.390Z",
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
       "firstSeen": "2025-09-26T01:13:21.833Z",
-      "lastEnergyLevel": 99,
-      "lastUpdateReason": "position 207m"
+      "lastEnergyLevel": 478,
+      "lastUpdateReason": "energie 379%"
     },
     "FTK9711": {
       "position": {
@@ -5255,12 +5255,12 @@
     },
     "FTK9152": {
       "position": {
-        "lat": 45.554981,
-        "lon": -73.5675
+        "lat": 45.554389,
+        "lon": -73.565732
       },
-      "lastUpdate": "2026-09-03T17:40:27.295Z",
-      "lastEnergyLevel": 372,
-      "lastUpdateReason": "energie 17%"
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
+      "lastEnergyLevel": 363,
+      "lastUpdateReason": "position 153m"
     },
     "FTL1221": {
       "position": {
@@ -5273,12 +5273,12 @@
     },
     "FTL1397": {
       "position": {
-        "lat": 45.518844,
-        "lon": -73.585109
+        "lat": 45.543392,
+        "lon": -73.567421
       },
-      "lastUpdate": "2026-09-02T17:19:40.941Z",
-      "lastEnergyLevel": 57,
-      "lastUpdateReason": "position 773m"
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
+      "lastEnergyLevel": 50,
+      "lastUpdateReason": "position 3058m"
     },
     "FTL1822": {
       "position": {
@@ -5318,17 +5318,17 @@
     },
     "FTL2009": {
       "position": {
-        "lat": 45.523536,
-        "lon": -73.585299
+        "lat": 45.529839,
+        "lon": -73.586287
       },
-      "lastUpdate": "2026-09-03T20:08:47.638Z",
-      "lastEnergyLevel": 437,
-      "lastUpdateReason": "energie 54%"
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
+      "lastEnergyLevel": 375,
+      "lastUpdateReason": "position 705m"
     },
     "FTL9079": {
       "position": {
-        "lat": 45.496425,
-        "lon": -73.624942
+        "lat": 45.496527,
+        "lon": -73.625023
       },
       "lastUpdate": "2026-09-03T00:32:31.643Z",
       "lastEnergyLevel": 158,
@@ -5345,8 +5345,8 @@
     },
     "FTK9810": {
       "position": {
-        "lat": 45.514146,
-        "lon": -73.569249
+        "lat": 45.514046,
+        "lon": -73.569286
       },
       "lastUpdate": "2026-09-03T13:55:44.504Z",
       "lastEnergyLevel": 189,
@@ -5507,8 +5507,8 @@
     },
     "FTK7077": {
       "position": {
-        "lat": 45.538069,
-        "lon": -73.639072
+        "lat": 45.538152,
+        "lon": -73.639029
       },
       "lastUpdate": "2026-09-03T05:02:01.886Z",
       "lastEnergyLevel": 45,
@@ -5552,12 +5552,12 @@
     },
     "FTL1352": {
       "position": {
-        "lat": 45.496129,
-        "lon": -73.617459
+        "lat": 45.504349,
+        "lon": -73.617721
       },
-      "lastUpdate": "2026-09-03T13:55:44.504Z",
-      "lastEnergyLevel": 213,
-      "lastUpdateReason": "position 8930m"
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
+      "lastEnergyLevel": 161,
+      "lastUpdateReason": "position 914m"
     },
     "FTL1830": {
       "position": {
@@ -5579,21 +5579,21 @@
     },
     "FTL1393": {
       "position": {
-        "lat": 45.529129,
-        "lon": -73.613508
+        "lat": 45.469944,
+        "lon": -73.630501
       },
-      "lastUpdate": "2026-09-01T16:36:03.766Z",
-      "lastEnergyLevel": 404,
-      "lastUpdateReason": "position 2678m"
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
+      "lastEnergyLevel": 385,
+      "lastUpdateReason": "position 6713m"
     },
     "FTK7014": {
       "position": {
-        "lat": 45.530358,
-        "lon": -73.594555
+        "lat": 45.495578,
+        "lon": -73.645486
       },
-      "lastUpdate": "2026-08-31T17:59:13.902Z",
-      "lastEnergyLevel": 94,
-      "lastUpdateReason": "energie 3%"
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
+      "lastEnergyLevel": 60,
+      "lastUpdateReason": "position 5541m"
     },
     "FTK8553": {
       "position": {
@@ -5633,12 +5633,12 @@
     },
     "FTK7064": {
       "position": {
-        "lat": 45.531631,
-        "lon": -73.607213
+        "lat": 45.522935,
+        "lon": -73.608282
       },
-      "lastEnergyLevel": 181,
-      "lastUpdate": "2026-09-03T05:02:01.886Z",
-      "lastUpdateReason": "position 425m"
+      "lastEnergyLevel": 182,
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
+      "lastUpdateReason": "position 971m"
     },
     "FTL2076": {
       "position": {
@@ -5660,12 +5660,12 @@
     },
     "FTL1542": {
       "position": {
-        "lat": 45.489758,
-        "lon": -73.564813
+        "lat": 45.51166,
+        "lon": -73.569714
       },
-      "lastEnergyLevel": 185,
-      "lastUpdate": "2026-09-03T20:08:47.638Z",
-      "lastUpdateReason": "position 4405m"
+      "lastEnergyLevel": 178,
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
+      "lastUpdateReason": "position 2465m"
     },
     "FTL1795": {
       "position": {
@@ -5696,21 +5696,21 @@
     },
     "FTK9831": {
       "position": {
-        "lat": 45.49634,
-        "lon": -73.559709
+        "lat": 45.533361,
+        "lon": -73.58504
       },
-      "lastEnergyLevel": 88,
-      "lastUpdate": "2026-09-03T17:40:27.295Z",
-      "lastUpdateReason": "energie 3%"
+      "lastEnergyLevel": 57,
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
+      "lastUpdateReason": "position 4565m"
     },
     "FTL9879": {
       "position": {
-        "lat": 45.528447,
-        "lon": -73.547391
+        "lat": 45.550207,
+        "lon": -73.594111
       },
-      "lastEnergyLevel": 41,
-      "lastUpdate": "2026-09-03T17:40:27.295Z",
-      "lastUpdateReason": "position 2429m"
+      "lastEnergyLevel": 255,
+      "lastUpdate": "2026-09-03T22:38:24.842Z",
+      "lastUpdateReason": "position 4370m"
     },
     "FTK7052": {
       "position": {
@@ -5741,8 +5741,8 @@
     },
     "FTK6874": {
       "position": {
-        "lat": 45.567056,
-        "lon": -73.575144
+        "lat": 45.567025,
+        "lon": -73.57521
       },
       "lastEnergyLevel": 93,
       "lastUpdate": "2026-09-02T04:30:38.130Z",
@@ -5911,5 +5911,5 @@
       "lastUpdateReason": "position 437m"
     }
   },
-  "lastUpdate": "2026-09-03 16 h 08 min 47 s"
+  "lastUpdate": "2026-09-03 18 h 38 min 24 s"
 }
